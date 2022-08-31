@@ -374,6 +374,9 @@ table.icons.ms-auto {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    padding: 1vw;
+    color: #fff;
+    font-size: 1.5vw;
 }
 .footer_logo{
     width: 100%;

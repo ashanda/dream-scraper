@@ -4,8 +4,11 @@
     }
 
     .footer .text-left,
-    .footer .text-right {
+    .footer .text-end {
         text-align: center;
+    }
+    .footer td{
+        display: block;
     }
 }
 
