@@ -355,7 +355,9 @@ table.icons.ms-auto {
 .caption_2 {
     padding-top: 10vw;
 }
-
+.content_3{
+    background: #011351;
+}
 .caption span {
     text-align: center;
     color: #011351;
@@ -391,12 +393,12 @@ table.icons.ms-auto {
 }
 
 /* Other pages css */
-.woocommerce .logo{
+.woocommerce .logo {
     max-width: 12vw !important;
     margin-top: 1vw;
-    margin-bottom: 1vw;
+    margin-bottom: 2vw;
 }
 
-.woocommerce .top_section{
-    
+.woocommerce .top_section {
+    height: 20vw;
 }
