@@ -400,5 +400,8 @@ table.icons.ms-auto {
 }
 
 .woocommerce .top_section {
-    height: 20vw;
+    height: 19vw;
+}
+.woocommerce .navigation{
+    margin-bottom: 2vw;
 }
