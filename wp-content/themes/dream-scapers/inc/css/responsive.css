@@ -5,7 +5,7 @@
 
     .footer .text-left,
     .footer .text-end {
-        text-align: center;
+        text-align: center !important;
     }
     .footer td{
         display: block;

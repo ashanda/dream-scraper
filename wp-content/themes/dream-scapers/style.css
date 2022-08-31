@@ -374,11 +374,16 @@ table.icons.ms-auto {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    padding: 1vw;
+    padding: 0 1vw;
     color: #fff;
     font-size: 1.5vw;
 }
-.footer_logo{
+
+.footer .text-end span {
+    vertical-align: super;
+}
+
+.footer_logo {
     width: 100%;
     height: auto;
     max-width: 200px;
