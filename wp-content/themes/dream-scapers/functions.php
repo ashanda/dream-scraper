@@ -242,4 +242,15 @@ function woocommerce_custom_single_add_to_cart_text() {
 add_filter( 'woocommerce_product_add_to_cart_text', 'woocommerce_custom_product_add_to_cart_text' );  
 function woocommerce_custom_product_add_to_cart_text() {
     return __( 'Buy Now', 'woocommerce' );
+	
+}
+
+/**
+* @snippet Remove "Default Sorting" Dropdown @ WooCommerce Shop & Archive Pages
+*/
+add_action( 'init', 'njengah_remove_default_sorting_storefront' );
+
+function njengah _remove_default_sorting_storefront() {
+   remove_action( 'woocommerce_after_shop_loop', 'woocommerce_catalog_ordering', 10 );
+   remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 10 );
 }
