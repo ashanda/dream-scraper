@@ -1,0 +1,14 @@
+@media only screen and (max-width: 768px) {
+    .header_top {
+        padding-top: 1px;
+    }
+
+}
+
+@media only screen and (max-width: 1450px) {
+    .header_top {
+        background-size: contain;
+        min-height: auto;
+    }
+ 
+}
