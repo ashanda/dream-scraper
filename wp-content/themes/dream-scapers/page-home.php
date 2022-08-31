@@ -8,21 +8,21 @@ get_header();  ?>
 <!-- icon_section -->
 <div class="icon_section">
     <a class="icon icon_1 icon_sm anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
-    <a class="icon icon_2 icon_md anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_2 icon_md anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/default.png" alt=""></a>
     <a class="icon icon_2 icon_md social" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/fb.png" alt=""></a>
     <a class="icon icon_3 icon_lg anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
-    <a class="icon icon_4 icon_md anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_4 icon_md anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/default.png" alt=""></a>
     <a class="icon icon_4 icon_md social" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/telegram.png" alt=""></a>
-    <a class="icon icon_5 icon_md anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_5 icon_md anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/default.png" alt=""></a>
     <a class="icon icon_5 icon_md social" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/twitter.png" alt=""></a>
     <a class="icon icon_6 icon_sm anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
     <a class="icon icon_7 icon_sm anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
-    <a class="icon icon_8 icon_lg anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_8 icon_lg anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/default.png" alt=""></a>
     <a class="icon icon_8 icon_lg social" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/discord.png" alt=""></a>
     <a class="icon icon_9 icon_sm anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
-    <a class="icon icon_10 icon_md anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_10 icon_md anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/default.png" alt=""></a>
     <a class="icon icon_10 icon_md social" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/linkedin.png" alt=""></a>
-    <a class="icon icon_11 icon_md anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_11 icon_md anm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/default.png" alt=""></a>
     <a class="icon icon_11 icon_md social" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/insta.png" alt=""></a>
 </div>
 <div class="back_imgs">
