@@ -342,6 +342,9 @@ table.icons.ms-auto {
 }
 .header_captions span{
     position: absolute;
+    color: #e7bc39;
+    font-size: 3vw;
+    text-transform: uppercase;
 }
 .header_captions .cap_1{
 
@@ -385,7 +388,7 @@ table.icons.ms-auto {
     background-size: cover;
     background-position: top;
     padding: 0 1vw;
-    color: #cd9c26;
+    color: #e7bc39;
     font-size: 1.5vw;
 }
 

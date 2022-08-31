@@ -34,8 +34,8 @@ get_header();  ?>
     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/key.png" alt="">
 </div>
 <div class="header_captions">
-<span class="cap_1">calture <img src="<?php echo get_template_directory_uri(); ?>/inc/img/text_icon.png" alt="">recalibrated</span>
-<span class="cap_2">key to interverse wealth</span>
+<span class="cap_1">calture <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/text_icon.png" alt=""> recalibrated</span>
+<span class="cap_2">interverse <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/text_icon.png" alt=""> assets</span>
 </div>
 </div>
 <!-- parallax Section 1 -->
