@@ -248,9 +248,9 @@ function woocommerce_custom_product_add_to_cart_text() {
 /**
 * @snippet Remove "Default Sorting" Dropdown @ WooCommerce Shop & Archive Pages
 */
-add_action( 'init', 'njengah_remove_default_sorting_storefront' );
+add_action( 'init', 'remove_default_sorting' );
 
-function njengah _remove_default_sorting_storefront() {
+function remove_default_sorting() {
    remove_action( 'woocommerce_after_shop_loop', 'woocommerce_catalog_ordering', 10 );
    remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 10 );
 }
