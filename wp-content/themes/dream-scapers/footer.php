@@ -12,7 +12,7 @@
 
 ?>
 <div class="footer" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/inner-banner.jpg');">
-    <table>
+    <table width="100%">
         <tr>
             <td>
                 <div class="text-left">
