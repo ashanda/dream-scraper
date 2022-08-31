@@ -102,11 +102,17 @@ li#menu-item-17 {
     left: 23.5vw;
 }
 
-li#menu-item-14 {}
+li#menu-item-14 {
+    left: 48vw;
+}
 
-li#menu-item-18 {}
+li#menu-item-18 {
+    left: 62vw;
+}
 
-li#menu-item-19 {}
+li#menu-item-19 {
+    left: 85vw;
+}
 
 .top_section {
     background-repeat: no-repeat;
@@ -328,7 +334,7 @@ table.icons.ms-auto {
     text-align: center;
     width: 100%;
     padding: 0 5vw;
-    line-height: 4 vw;
+    line-height: 4vw;
 }
 
 .header {
