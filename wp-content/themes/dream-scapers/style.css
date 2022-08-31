@@ -393,15 +393,15 @@ table.icons.ms-auto {
 }
 
 /* Other pages css */
-.woocommerce-page.logo {
+.woocommerce-page .logo {
     max-width: 12vw !important;
     margin-top: 1vw;
     margin-bottom: 2vw;
 }
 
-.woocommerce-page.top_section {
+.woocommerce-page .top_section {
     height: 19vw;
 }
-.woocommerce-page.navigation{
+.woocommerce-page .navigation{
     margin-bottom: 2vw;
 }
