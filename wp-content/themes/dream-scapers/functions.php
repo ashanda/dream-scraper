@@ -224,7 +224,7 @@ function mytheme_add_woocommerce_support() {
 	  href="<?php echo esc_url( wc_get_checkout_url() ); ?>?add-to-cart=<?php echo absint( $id ); ?>"
 	  class="<?php echo esc_attr( $classes ); ?>"
 	  rel="nofollow">
-	  <?php echo esc_html_e( 'Buy Now', 'your-text-domain' ); ?>
+	  <?php echo esc_html_e( 'View More', 'your-text-domain' ); ?>
 	  </a>
   
 	  <?php
