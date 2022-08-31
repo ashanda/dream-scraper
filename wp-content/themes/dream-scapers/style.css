@@ -152,7 +152,7 @@ li#menu-item-19 {
 
 /* navbar */
 .logo {
-    max-width: 12vw;
+    max-width: 12vw !important;
     width: 100%;
     margin-top: 4vw;
     margin-left: 4vw;
@@ -391,6 +391,12 @@ table.icons.ms-auto {
 }
 
 /* Other pages css */
+.woocommerce .logo{
+    max-width: 12vw !important;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
 .woocommerce .top_section{
-    background-color: #fff !important;
+    
 }
