@@ -176,15 +176,15 @@ table.icons.ms-auto {
 }
 
 .icon_section .icon_sm.anm img {
-    animation: rotation 2s infinite linear;
+    animation: rotation 22s infinite linear;
 }
 
 .icon_section .icon_md.anm img {
-    animation: rotation 10s infinite linear;
+    animation: rotation 60s infinite linear;
 }
 
 .icon_section .icon_lg.anm img {
-    animation: rotation 20s infinite linear;
+    animation: rotation 85s infinite linear;
 }
 
 @keyframes rotation {
