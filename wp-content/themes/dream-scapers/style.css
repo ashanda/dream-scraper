@@ -340,7 +340,15 @@ table.icons.ms-auto {
 .header {
     padding-top: 10vw;
 }
+.header_captions span{
+    position: absolute;
+}
+.header_captions .cap_1{
 
+}
+.header_captions .cap_2{
+    
+}
 .header .gold {
     color: #f3bd0c;
     text-shadow: 2px 2px #bc8b19;
@@ -377,7 +385,7 @@ table.icons.ms-auto {
     background-size: cover;
     background-position: top;
     padding: 0 1vw;
-    color: #fff;
+    color: #cd9c26;
     font-size: 1.5vw;
 }
 
@@ -388,8 +396,8 @@ table.icons.ms-auto {
 .footer_logo {
     width: 100%;
     height: auto;
-    max-width: 200px !important;
-    padding: 2vw;
+    max-width: 120px !important;
+    margin: 1vw;
 }
 
 /* Other pages css */

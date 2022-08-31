@@ -33,45 +33,49 @@ get_header();  ?>
 <div class="key_icon">
     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/key.png" alt="">
 </div>
+<div class="header_captions">
+<span class="cap_1">calture <img src="<?php echo get_template_directory_uri(); ?>/inc/img/text_icon.png" alt="">recalibrated</span>
+<span class="cap_2">key to interverse wealth</span>
+</div>
 </div>
 <!-- parallax Section 1 -->
 <div class="parallax parallax_1" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');"></div>
-    <!-- Content section 1 -->
-    <div class="content_1">
-        <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
-        <div class="caption header">
-            <span class="gold">
-                We invited you to come for Wealth and, if you'd like, stay for the Revolution.
-            </span>
-        </div>
+<!-- Content section 1 -->
+<div class="content_1">
+    <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
+    <div class="caption header">
+        <span class="gold">
+            We invited you to come for Wealth and, if you'd like, stay for the Revolution.
+        </span>
     </div>
-    <!-- parallax Section 2 -->
-    <div class="parallax parallax_2" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_2.jpg');"></div>
-    <!-- Content section 2 -->
-    <div class="content_2">
-        <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
-        <div class="caption caption_1">
-            <span>In a world driven by value-extracion and exploitative principles, we, here at Dreamscapers Publishing,
-                Inc., are building an ecosystem grounded in contribute and collaborative value principles. <br> By
-                contributing and leveraging Our entire intellectual Property portfolio (from technology-related to
-                brand-related and artistic-related IP), and sharing our earnings for the benefit of the many rather that
-                the few, we are devoted to overhauling Shared Capitalism , and BE the change we want to see both og our
-                worlds, physical and disgital. </span>
+</div>
+<!-- parallax Section 2 -->
+<div class="parallax parallax_2" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_2.jpg');"></div>
+<!-- Content section 2 -->
+<div class="content_2">
+    <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
+    <div class="caption caption_1">
+        <span>In a world driven by value-extracion and exploitative principles, we, here at Dreamscapers Publishing,
+            Inc., are building an ecosystem grounded in contribute and collaborative value principles. <br> By
+            contributing and leveraging Our entire intellectual Property portfolio (from technology-related to
+            brand-related and artistic-related IP), and sharing our earnings for the benefit of the many rather that
+            the few, we are devoted to overhauling Shared Capitalism , and BE the change we want to see both og our
+            worlds, physical and disgital. </span>
 
-        </div>
     </div>
-    <!-- parallax Section 3 -->
-    <div class="parallax parallax_3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_3.jpg');"></div>
-    <!-- Content section 3 -->
-    <div class="content_3">
-        <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
-        <div class="caption caption_2">
-            <span>At Dreamscaper Publishing. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
-                strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
-                Asset as the fi=foundation for wealthy-building in both the real and metaverse, and we’re exited to play
-                an active role in ownership economy.</span>
-        </div>
+</div>
+<!-- parallax Section 3 -->
+<div class="parallax parallax_3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_3.jpg');"></div>
+<!-- Content section 3 -->
+<div class="content_3">
+    <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
+    <div class="caption caption_2">
+        <span>At Dreamscaper Publishing. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
+            strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
+            Asset as the fi=foundation for wealthy-building in both the real and metaverse, and we’re exited to play
+            an active role in ownership economy.</span>
     </div>
+</div>
 
 
 <?php get_footer(); ?>

@@ -22,7 +22,7 @@
                         </script> Dreamscaper Publishing</span>
                 </div>
             </td>
-            <td>
+            <td style="display: none;"> 
                 <div class="text-end">
                     <span>Developed by <a target="_blank" href="https://mozita.digital/">Mozita Digital</a></span>
                 </div>
