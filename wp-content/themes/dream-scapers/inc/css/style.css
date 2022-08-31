@@ -1,7 +1,19 @@
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
 .top_section {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+    position: relative;
 }
 
 /* header styles */
@@ -27,6 +39,7 @@
     font-size: 3vw;
     line-height: 0.5;
 }
+
 .header_top h4 {
     font-size: 1.5vw;
     line-height: 1;
@@ -39,93 +52,227 @@
     margin-top: 4vw;
     margin-left: 4vw;
 }
-table.icons.ms-auto{
+
+table.icons.ms-auto {
     margin-top: 2vw;
 }
+
 .icons .img-fluid {
     width: auto;
     max-height: 3vw;
     padding-right: 1vw;
 }
-.icons .nav-link{
+
+.icons .nav-link {
     margin-right: 2vw;
     color: #e7bc39;
     font-size: 2vw;
 }
 
 /* icon_section */
-.icon_section .icon img{
+.icon_section .icon img {
     position: absolute;
     width: 100%;
     height: auto
 }
-.icon_section .icon_sm img{
-max-width: 4vw;
+
+.icon_section .icon_sm.anm img {
+    animation: rotation 2s infinite linear;
 }
-.icon_section .icon_md img{
+.icon_section .icon_md.anm img {
+    animation: rotation 10s infinite linear;
+}
+.icon_section .icon_lg.anm img {
+    animation: rotation 20s infinite linear;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.icon_section .icon_sm img {
+    max-width: 4vw;
+}
+
+.icon_section .icon_md img {
     max-width: 6vw;
 }
-.icon_section .icon_lg img{
+
+.icon_section .icon_lg img {
     max-width: 8vw;
 }
-.icon_1 img{
+
+.icon_section .social img {
+    padding: 1vw;
+}
+
+.icon_1 img {
     top: 23vw;
-    left:6vw;
+    left: 6vw;
 }
-.icon_2 img{
+
+.icon_2 img {
     top: 26vw;
-    left:11vw;
+    left: 11vw;
 }
-.icon_3 img{
+
+.icon_3 img {
     top: 20vw;
-    left:18vw;
+    left: 18vw;
 }
-.icon_4 img{
+
+.icon_4 img {
     top: 14vw;
-    left:24vw;
+    left: 24vw;
 }
-.icon_5 img{
-    top: 24vw;
+
+.icon_5 img {
+    top: 23vw;
     left: 27vw;
 }
-.icon_6 img{
+
+.icon_6 img {
     top: 12vw;
-    left:64vw;
+    left: 64vw;
 }
-.icon_7 img{
+
+.icon_7 img {
     top: 22vw;
-    left:68vw;
+    left: 68vw;
 }
-.icon_8 img{
+
+.icon_8 img {
     top: 18vw;
     left: 73vw;
 }
-.icon_9 img{
+
+.icon_9 img {
     top: 11vw;
     left: 87vw;
 }
-.icon_10 img{
+
+.icon_10 img {
     top: 23vw;
-    left:88vw;
+    left: 88vw;
 }
-.icon_11 img{
+
+.icon_11 img {
     top: 14vw;
     left: 90vw;
 }
-.key_icon{
+
+.key_icon {
     text-align: center;
 }
-.key_icon img{
-    max-width: 29vw;
-    margin-top: -10vw;
-}
 
-/* section_1 */
-.section_1{
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.back_img1{
+/* back_imgs */
+.back_imgs img {
+    position: absolute;
     width: 100%;
     height: auto;
+}
+
+.back_imgs .left_hand {
+    max-width: 35vw;
+    left: 6vw;
+    top: 26vw;
+}
+
+.back_imgs .right_hand {
+    max-width: 30vw;
+    left: 64vw;
+    top: 29vw;
+    z-index: 2;
+}
+
+.back_imgs .heart {
+    max-width: 10vw;
+    left: 56vw;
+    top: 25vw;
+    z-index: 2;
+}
+
+.key_icon img {
+    max-width: 28vw;
+    margin-top: -10vw;
+    position: sticky;
+    z-index: 9;
+    animation: shake 20s infinite linear;
+}
+@keyframes shake {
+
+}
+/* background section_1 */
+
+.parallax {
+    min-height: 50vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -16vw;
+}
+
+.parallax_1 {
+    background-image: url(../img/par_1.jpg);
+}
+
+.parallax_2 {
+    background-image: url(../img/par_2.jpg);
+}
+
+.parallax_3 {
+    background-image: url(../img/par_3.jpg);
+}
+
+/* content  */
+.caption {
+    margin-top: -45vw;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 0 5vw;
+    line-height: 4 vw;
+}
+
+.header {
+    padding-top: 10vw;
+}
+
+.header .gold {
+    color: #f3bd0c;
+    text-shadow: 2px 2px #bc8b19;
+    font-size: 4vw;
+    line-height: 5vw;
+}
+
+.caption_1 {
+    padding-top: 5vw;
+}
+
+.caption_2 {
+    padding-top: 10vw;
+}
+
+.caption span {
+    text-align: center;
+    color: #011351;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.white_sec {
+    width: 100%;
+    height: auto;
+    margin-top: -16vw;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
 }
