@@ -4,7 +4,7 @@
 
     <main id="primary" class="site-main">
 
-    <div id="inner-content-wrapper">
+    <div id="inner-content-wrapper" class="container">
 
             <div class="page-width">
             <?php  if ( is_shop() ){ ?>
