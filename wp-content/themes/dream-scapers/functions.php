@@ -191,3 +191,43 @@ function mytheme_add_woocommerce_support() {
 	add_theme_support( 'woocommerce' );
   }
   add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
+
+
+  add_action( 'woocommerce_after_shop_loop_item', 'cssigniter_buy_now_button', 15 );
+  add_action( 'woocommerce_after_add_to_cart_button', 'cssigniter_buy_now_button' );
+  function cssigniter_buy_now_button() {
+	  global $product;
+  
+	  if ( 'simple' !== $product->get_type()
+	  || ! $product->is_purchasable()
+	  || ! $product->is_in_stock() ) {
+		  return;
+	  }
+  
+	  $id = $product->get_ID();
+  
+	  $classes = implode(
+		  ' ',
+		  array_filter(
+			  array(
+				  'button',
+				  'product_type_' . $product->get_type(),
+				  'add_to_cart_button',
+			  )
+		  )
+	  );
+  
+	  ob_start();
+  
+	  ?>
+	  <a
+	  href="<?php echo esc_url( wc_get_checkout_url() ); ?>?add-to-cart=<?php echo absint( $id ); ?>"
+	  class="<?php echo esc_attr( $classes ); ?>"
+	  rel="nofollow">
+	  <?php echo esc_html_e( 'Buy Now', 'your-text-domain' ); ?>
+	  </a>
+  
+	  <?php
+  
+	  echo ob_get_clean();
+  }  
