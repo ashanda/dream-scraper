@@ -2,45 +2,91 @@
 /*
 Template Name: Home
 */
- get_header();  ?>
+get_header();  ?>
 
 <div class="row">
-            <div class="col">
-                <a href="">
-                    <img class="logo img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" alt="">
-                </a>
-            </div>
-            <div class="col">
-                <table class="icons ms-auto">
-                    <tr>
-                        <td><a class="nav-link" href="javascript:void(Tawk_API.toggle())"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/chat_icon.png" alt="">
-                                Live Chat</a></td>
-                        <td><a class="nav-link" href=""><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/call_icon.png" alt="">
-                                800-395-8494</a></td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <!-- icon_section -->
-        <div class="icon_section">
-            <a class="icon icon_1 icon_sm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
-            <a class="icon icon_2 icon_md" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/fb.png" alt=""></a>
-            <a class="icon icon_3 icon_lg" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
-            <a class="icon icon_4 icon_md" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/telegram.png" alt=""></a>
-            <a class="icon icon_5 icon_md" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/iwitter.png" alt=""></a>
-            <a class="icon icon_6 icon_sm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
-            <a class="icon icon_7 icon_sm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
-            <a class="icon icon_8 icon_lg" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/discord.png" alt=""></a>
-            <a class="icon icon_9 icon_sm" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/none.png" alt=""></a>
-            <a class="icon icon_10 icon_md" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/linkedin.png" alt=""></a>
-            <a class="icon icon_11 icon_md" target="_blank" href=""> <img src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/insta.png" alt=""></a>
-        </div>
-        <div class="key_icon">
-            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/key.png" alt="">
+    <div class="col">
+        <a href="">
+            <img class="logo img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" alt="">
+        </a>
+    </div>
+    <div class="col">
+        <table class="icons ms-auto">
+            <tr>
+                <td><a class="nav-link" href="javascript:void(Tawk_API.toggle())"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/chat_icon.png" alt="">
+                        Live Chat</a></td>
+                <td><a class="nav-link" href=""><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/call_icon.png" alt="">
+                        800-395-8494</a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- icon_section -->
+<div class="icon_section">
+    <a class="icon icon_1 icon_sm anm" target="_blank" href=""> <img src="inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_2 icon_md anm" target="_blank" href=""> <img src="inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_2 icon_md social" target="_blank" href=""> <img src="inc/img/icons/fb.png" alt=""></a>
+    <a class="icon icon_3 icon_lg anm" target="_blank" href=""> <img src="inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_4 icon_md anm" target="_blank" href=""> <img src="inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_4 icon_md social" target="_blank" href=""> <img src="inc/img/icons/telegram.png" alt=""></a>
+    <a class="icon icon_5 icon_md anm" target="_blank" href=""> <img src="inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_5 icon_md social" target="_blank" href=""> <img src="inc/img/icons/twitter.png" alt=""></a>
+    <a class="icon icon_6 icon_sm anm" target="_blank" href=""> <img src="inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_7 icon_sm anm" target="_blank" href=""> <img src="inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_8 icon_lg anm" target="_blank" href=""> <img src="inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_8 icon_lg social" target="_blank" href=""> <img src="inc/img/icons/discord.png" alt=""></a>
+    <a class="icon icon_9 icon_sm anm" target="_blank" href=""> <img src="inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_10 icon_md anm" target="_blank" href=""> <img src="inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_10 icon_md social" target="_blank" href=""> <img src="inc/img/icons/linkedin.png" alt=""></a>
+    <a class="icon icon_11 icon_md anm" target="_blank" href=""> <img src="inc/img/icons/none.png" alt=""></a>
+    <a class="icon icon_11 icon_md social" target="_blank" href=""> <img src="inc/img/icons/insta.png" alt=""></a>
+</div>
+<div class="back_imgs">
+    <img class="left_hand" src="inc/img/left_hand.png" alt="">
+    <img class="heart" src="inc/img/heart.png" alt="">
+    <img class="right_hand" src="inc/img/right_hand.png" alt="">
+</div>
+<div class="key_icon">
+    <img class="img-fluid" src="inc/img/key.png" alt="">
+</div>
+</div>
+<!-- parallax Section 1 -->
+<div class="parallax parallax_1"></div>
+    <!-- Content section 1 -->
+    <div class="content_1">
+        <img class="white_sec" src="inc/img/white_section.png" alt="">
+        <div class="caption header">
+            <span class="gold">
+                We invited you to come for Wealth and, if you'd like, stay for the Revolution.
+            </span>
         </div>
     </div>
-     <!-- Section 1 -->
-     <div class="section_1" style="background-image:url(<?php echo get_template_directory_uri(); ?>/inc/img/section_1.jpg);">
+    <!-- parallax Section 2 -->
+    <div class="parallax parallax_2"></div>
+    <!-- Content section 2 -->
+    <div class="content_2">
+        <img class="white_sec" src="inc/img/white_section.png" alt="">
+        <div class="caption caption_1">
+            <span>In a world driven by value-extracion and exploitative principles, we, here at Dreamscapers Publishing,
+                Inc., are building an ecosystem grounded in contribute and collaborative value principles. <br> By
+                contributing and leveraging Our entire intellectual Property portfolio (from technology-related to
+                brand-related and artistic-related IP), and sharing our earnings for the benefit of the many rather that
+                the few, we are devoted to overhauling Shared Capitalism , and BE the change we want to see both og our
+                worlds, physical and disgital. </span>
+
+        </div>
+    </div>
+    <!-- parallax Section 3 -->
+    <div class="parallax parallax_3"></div>
+    <!-- Content section 3 -->
+    <div class="content_3">
+        <img class="white_sec" src="inc/img/white_section.png" alt="">
+        <div class="caption caption_2">
+            <span>At Dreamscaper Publishing. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
+                strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
+                Asset as the fi=foundation for wealthy-building in both the real and metaverse, and we’re exited to play
+                an active role in ownership economy.</span>
+        </div>
     </div>
 
 
