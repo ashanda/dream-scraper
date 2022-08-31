@@ -340,18 +340,28 @@ table.icons.ms-auto {
 .header {
     padding-top: 10vw;
 }
-.header_captions span{
+
+.header_captions span {
     position: absolute;
     color: #e7bc39;
-    font-size: 3vw;
+    font-size: 2vw;
     text-transform: uppercase;
+    top: 48vw;
 }
-.header_captions .cap_1{
 
+.header_captions img {
+    width: 3vw;
+    vertical-align: sub;
 }
-.header_captions .cap_2{
-    
+
+.header_captions .cap_1 {
+    left:10vw;
 }
+
+.header_captions .cap_2 {
+    left: 65vw;
+}
+
 .header .gold {
     color: #f3bd0c;
     text-shadow: 2px 2px #bc8b19;
@@ -366,9 +376,11 @@ table.icons.ms-auto {
 .caption_2 {
     padding-top: 10vw;
 }
-.content_3{
+
+.content_3 {
     background: #011351;
 }
+
 .caption span {
     text-align: center;
     color: #011351;
@@ -413,6 +425,7 @@ table.icons.ms-auto {
 .woocommerce-page .top_section {
     height: 19vw;
 }
-.woocommerce-page .navigation{
+
+.woocommerce-page .navigation {
     margin-bottom: 2vw;
 }
