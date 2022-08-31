@@ -6,9 +6,9 @@ Template Name: woocommerce
 	
 	<?php //get_template_part(innerbanner);?>
 
-    <main id="primary" class="site-main">
+    <main id="primary" class="site-main container">
 
-    <div id="inner-content-wrapper" class="container">
+  
 
             <div class="page-width">
             <?php  if ( is_shop() ){ ?>
@@ -36,7 +36,7 @@ Template Name: woocommerce
 
             </div>
 
-            </div><!--inner content wrapper end-->
+
 
 </main><!-- #main -->
     
