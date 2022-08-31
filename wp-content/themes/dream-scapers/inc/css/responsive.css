@@ -3,6 +3,10 @@
         padding-top: 1px;
     }
 
+    .footer .text-left,
+    .footer .text-right {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 1450px) {
@@ -10,5 +14,5 @@
         background-size: contain;
         min-height: auto;
     }
- 
+
 }

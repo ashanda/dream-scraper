@@ -371,5 +371,13 @@ table.icons.ms-auto {
 
 /* Footer */
 .footer {
-    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.footer_logo{
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    padding: 2vw;
 }
