@@ -96,6 +96,20 @@ get_header();  ?>
                 </td>
             </tr>
         </table>
+        <div class="row">
+            <div class="col-sm-6">
+                <a class="btn btn-info" href="">Button 1</a>
+            </div>
+            <div class="col-sm-6">
+                <a class="btn btn-info" href="">Button 2</a>
+            </div>
+            <div class="col-sm-6">
+                <a class="btn btn-info" href="">Button 3</a>
+            </div>
+            <div class="col-sm-6">
+                <a class="btn btn-info" href="">Button 4</a>
+            </div>
+        </div>
 
     </div>
 </div>
