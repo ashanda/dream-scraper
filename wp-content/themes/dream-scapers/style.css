@@ -86,14 +86,37 @@ h6 {
 }
 
 /* Preloader styles */
-.pre_img1,
-.pre_img1{
+.pre_img1 {
     margin: auto;
     z-index: 99;
 }
-.hide {
-    display: none;
+
+.pre_img1 {
+    animation: rotate_right 60s infinite linear;
 }
+.pre_img2 {
+    animation: rotate_left 30s infinite linear;
+}
+@keyframes rotate_right {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes rotate_left {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-359deg);
+    }
+}
+
 
 #preloader {
     position: absolute;
