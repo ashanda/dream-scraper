@@ -91,27 +91,33 @@ h6 {
     position: absolute;
     font-size: 1.2vw;
     font-weight: bold;
-    top: 1vw;
+}
+
+#main-menu span {
+    display: block;
+    font-size: 2.2vw;
+    line-height: 1;
 }
 
 li#menu-item-16 {
-    left: 7.5vw;
+    left: 8vw;
 }
 
 li#menu-item-17 {
-    left: 23.5vw;
+    left: 26vw;
 }
 
 li#menu-item-14 {
-    left: 48vw;
+    left: 46.5vw;
+    top: 1vw;
 }
 
 li#menu-item-18 {
-    left: 62vw;
+    left: 65vw;
 }
 
 li#menu-item-19 {
-    left: 85vw;
+    left: 86.5vw;
 }
 
 .top_section {
@@ -355,7 +361,7 @@ table.icons.ms-auto {
 }
 
 .header_captions .cap_1 {
-    left:10vw;
+    left: 10vw;
 }
 
 .header_captions .cap_2 {
