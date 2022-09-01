@@ -36,7 +36,7 @@
     <?php wp_body_open(); ?>
 
     <!-- Preloader -->
-    <?php if( is_front_page()) { ?>
+    
 
         <div id="preloader">
         <h2 class="pre_text">Loading</h2>
@@ -50,7 +50,7 @@
         <img class="pre_img2" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/text_icon.png" alt=""> -->
     </div>
     
-     <?php } ?>
+    
 
 
     <!-- Header -->
