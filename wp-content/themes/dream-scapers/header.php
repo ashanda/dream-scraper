@@ -37,6 +37,7 @@
 
     <!-- Preloader -->
     <div id="preloader">
+        <h1 class="pre_text">Loading</h1>
         <div class="lds-ellipsis">
             <div></div>
             <div></div>

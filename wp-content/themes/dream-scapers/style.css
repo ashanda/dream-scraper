@@ -89,7 +89,10 @@ h6 {
 /* #preloader {
     animation: ;
 } */
-
+.pre_text{
+    color: #fff;
+    font-weight: bold;
+}
 .lds-ellipsis {
     display: inline-block;
     position: relative;
