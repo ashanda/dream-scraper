@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px) {
     .header_top {
-        padding-top: 1px;
+        padding-top: 1px !important;
     }
 
     .footer .text-left,
@@ -9,6 +9,15 @@
     }
     .footer td{
         display: block;
+    }
+    .footer_logo{
+        max-width: 60px !important;
+    }
+    table.icons.ms-auto{
+        margin-top: 0;
+    }
+    .icons .nav-link{
+        font-size: 1vw;
     }
 }
 
