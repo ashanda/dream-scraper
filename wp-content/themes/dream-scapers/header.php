@@ -78,7 +78,7 @@
                     <tr>
                         <td><a class="nav-link" href="javascript:void(Tawk_API.toggle())"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/chat_icon.png" alt="">
                                 Live Chat</a></td>
-                        <td><a class="nav-link" href=""><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/call_icon.png" alt="">
+                        <td><a class="nav-link" href="tel:8003958494"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/call_icon.png" alt="">
                                 800-395-8494</a></td>
                     </tr>
                 </table>
