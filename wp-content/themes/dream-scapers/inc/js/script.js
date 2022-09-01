@@ -1,6 +1,5 @@
 
 // Preloader
-$(window).on('load', function () {
-    alert("fuck");
-    // $('#preloader').hide();
-  }) 
+function closePreloader() {
+    document.getElementById("preloader").style.display = "none";
+  }
