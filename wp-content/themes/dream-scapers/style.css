@@ -463,7 +463,8 @@ a.added_to_cart.wc-forward {
 }
 
 a.checkout-button.button.alt.wc-forward,
-button#place_order {
+button#place_order,
+button.single_add_to_cart_button.button.alt {
     background-color: #011c75;
 }
 
