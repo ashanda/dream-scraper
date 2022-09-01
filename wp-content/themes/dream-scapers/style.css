@@ -461,12 +461,6 @@ a.added_to_cart.wc-forward {
 .woocommerce .quantity .qty {
     border: 1px solid rgb(0 0 0 / 25%);
 }
-.single-product .quantity .qty{
-    padding: 5px;
-}
-.single-product a.button.product_type_simple.add_to_cart_button{
-    margin-left: 5px;
-}
 
 a.checkout-button.button.alt.wc-forward,
 button#place_order,
@@ -479,4 +473,9 @@ form.checkout.woocommerce-checkout textarea {
     padding: 8px 10px;
     border: 1px solid #aaa;
     border-radius: 4px;
+}
+
+/* single-product styles */
+.single-product .quantity .qty {
+    padding: 5px;
 }
