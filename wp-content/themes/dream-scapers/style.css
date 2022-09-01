@@ -73,6 +73,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+
 p,
 span,
 h1,
@@ -84,6 +85,23 @@ h6 {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Preloader styles */
+.hide {
+    display: none;
+}
+
+#preloader {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    font-size: 34px;
+    padding-top: 20%;
+    background-color: #011351;
+}
+
 /* Menu styles */
 #main-menu li {
     list-style: none;
@@ -91,7 +109,9 @@ h6 {
     position: absolute;
     font-size: 1.2vw;
     font-weight: bold;
+    transition-duration: 0.5s;
 }
+
 #main-menu li:hover {
     transform: scale(1.07);
     text-shadow: rgb(111 159 205 / 92%) 0px 0px 10px;
