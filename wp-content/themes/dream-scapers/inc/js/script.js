@@ -1,9 +1,12 @@
+// Preloader
+function closePreloader() {
 
-    // Preloader
-    function closePreloader() {
+    // const element = document.getElementById("preloader");
+    // element.remove();
+    setTimeout(() => {
+        document.getElementById("preloader").style.display = "none"; // hide the loader after 3.5 seconds
 
-        // const element = document.getElementById("preloader");
-        // element.remove();
+    }, 3500)
 
-        document.getElementById("preloader").style.display = "none";
-        }
+
+}
