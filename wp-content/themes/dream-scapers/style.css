@@ -134,7 +134,7 @@ li#menu-item-19 {
     background-size: cover;
     text-transform: uppercase;
     min-height: 5vw;
-    padding-top: 5px;
+    padding-top: 3px;
 }
 
 .header_top a {
@@ -433,4 +433,27 @@ table.icons.ms-auto {
 
 .woocommerce-page .navigation {
     margin-bottom: 2vw;
+}
+
+/* View cart button */
+a.added_to_cart.wc-forward{
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    padding: 0.618em 1em;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    color: #fff;
+    background-color: #0d6efd;
+    border: 0;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+    margin-top: 1em;
 }
