@@ -92,6 +92,9 @@ h6 {
     font-size: 1.2vw;
     font-weight: bold;
 }
+#main-menu li:hover {
+    transform: scale(1.07);
+}
 
 #main-menu span {
     display: block;
@@ -416,7 +419,7 @@ table.icons.ms-auto {
 .footer_logo {
     width: 100%;
     height: auto;
-    max-width: 50px !important;
+    max-width: 70px !important;
     margin: 1.2vw;
     margin-left: 4vw;
 }
