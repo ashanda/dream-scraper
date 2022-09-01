@@ -38,6 +38,7 @@
     <!-- Preloader -->
     <?php if( is_front_page()) { ?>
 
+        
         <div id="preloader">
         <h2 class="pre_text">Loading</h2>
         <div class="lds-ellipsis">
