@@ -72,7 +72,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html{
+html {
     overflow-x: hidden;
 }
 
@@ -217,7 +217,7 @@ h6 {
 }
 
 #main-menu li:hover {
-    transform: scale(1.07);
+    transform: scale(1.04);
     text-shadow: rgb(111 159 205 / 92%) 0px 0px 10px;
 }
 
@@ -678,11 +678,14 @@ form.checkout.woocommerce-checkout textarea {
 .sec_4_img {
     width: 20vw;
 }
-.sec_4_img img{
+
+.sec_4_img img {
     width: 100%;
     height: auto;
 }
-.sec_4_cap{
+
+.sec_4_cap {
     text-align: left;
     padding-left: 2vw;
 }
+
