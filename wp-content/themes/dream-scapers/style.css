@@ -465,3 +465,8 @@ a.added_to_cart.wc-forward{
 a.checkout-button.button.alt.wc-forward{
     background-color: #011c75;
 }
+form.checkout.woocommerce-checkout input{
+    padding: 8px 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
