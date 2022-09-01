@@ -11,13 +11,13 @@
         display: block;
     }
     .footer_logo{
-        max-width: 60px !important;
+        width: 50px !important;
     }
     table.icons.ms-auto{
-        margin-top: 0;
+        margin-top: 0 !important;
     }
     .icons .nav-link{
-        font-size: 1vw;
+        font-size: 1vw !important;
     }
 }
 
