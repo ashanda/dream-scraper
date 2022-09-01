@@ -91,10 +91,10 @@ h6 {
     position: absolute;
     font-size: 1.2vw;
     font-weight: bold;
-    text-shadow: rgba(255,162,0,0.92) 0px 0px 10px;
 }
 #main-menu li:hover {
     transform: scale(1.07);
+    text-shadow: rgb(111 159 205 / 92%) 0px 0px 10px;
 }
 
 #main-menu span {
@@ -466,6 +466,7 @@ a.added_to_cart.wc-forward {
 /* .woocommerce */
 .star-rating span {
     font-family: star !important;
+    color: #d9901e;
 }
 
 .woocommerce ul.products li.product a {
