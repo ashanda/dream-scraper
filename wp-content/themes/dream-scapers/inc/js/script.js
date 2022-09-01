@@ -8,5 +8,11 @@ function closePreloader() {
 
     }, 3500)
 
+    jQuery(window).load(function () {
+        
+        closePreloader();
+    
+    });
+
 
 }
