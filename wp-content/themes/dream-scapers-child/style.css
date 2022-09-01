@@ -13,3 +13,9 @@ Text Domain:	 dream-scapers-child
 /*
     Add your custom styles here
 */
+.gl-product-slider-bottom-nav.slick-initialized.slick-slider {
+  display: none !important;
+}
+.star-rating span {
+    font-family: star !important;
+}

@@ -1,0 +1,71 @@
+2022-09-01T06:53:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php on line 309 and exactly 2 expected in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php:259
+Stack trace:
+#0 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(309): quantity_inputs_for_woocommerce_loop_add_to_cart_link('<a href="?add-t...')
+#1 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/plugin.php(191): WP_Hook->apply_filters('<a href="?add-t...', Array)
+#2 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/woocommerce/loop/add-to-cart.php(35): apply_filters('woocommerce_loo...', '<a href="?add-t...', Object(WC_Product_Simple), Array)
+#3 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/bzyyummy/ in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php on line 259
+
+2022-09-01T06:54:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php on line 307 and exactly 2 expected in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php:259
+Stack trace:
+#0 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(307): quantity_inputs_for_woocommerce_loop_add_to_cart_link('')
+#1 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/woocommerce/single-product/add-to-cart/simple.php(33): do_action('woocommerce_bef...')
+#4 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/plugins/woocommerce/includes/wc-core-funct in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php on line 259
+
+2022-09-01T06:54:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php on line 307 and exactly 2 expected in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php:259
+Stack trace:
+#0 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(307): quantity_inputs_for_woocommerce_loop_add_to_cart_link('')
+#1 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/woocommerce/single-product/add-to-cart/simple.php(33): do_action('woocommerce_bef...')
+#4 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/plugins/woocommerce/includes/wc-core-funct in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php on line 259
+
+2022-09-01T06:55:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php on line 307 and exactly 2 expected in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php:259
+Stack trace:
+#0 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(307): quantity_inputs_for_woocommerce_loop_add_to_cart_link('')
+#1 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/woocommerce/single-product/add-to-cart/simple.php(33): do_action('woocommerce_bef...')
+#4 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/plugins/woocommerce/includes/wc-core-functio in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php on line 259
+
+2022-09-01T06:55:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php on line 307 and exactly 2 expected in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php:259
+Stack trace:
+#0 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(307): quantity_inputs_for_woocommerce_loop_add_to_cart_link('')
+#1 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/woocommerce/single-product/add-to-cart/simple.php(33): do_action('woocommerce_bef...')
+#4 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/plugins/woocommerce/includes/wc-core-funct in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php on line 259
+
+2022-09-01T06:55:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php on line 307 and exactly 2 expected in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php:259
+Stack trace:
+#0 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(307): quantity_inputs_for_woocommerce_loop_add_to_cart_link('')
+#1 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/woocommerce/single-product/add-to-cart/simple.php(33): do_action('woocommerce_bef...')
+#4 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/plugins/woocommerce/includes/wc-core-funct in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php on line 259
+
+2022-09-01T06:56:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php on line 307 and exactly 2 expected in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php:259
+Stack trace:
+#0 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(307): quantity_inputs_for_woocommerce_loop_add_to_cart_link('')
+#1 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/woocommerce/single-product/add-to-cart/simple.php(33): do_action('woocommerce_bef...')
+#4 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/plugins/woocommerce/includes/wc-core-funct in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php on line 259
+
+2022-09-01T06:56:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php on line 307 and exactly 2 expected in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php:259
+Stack trace:
+#0 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(307): quantity_inputs_for_woocommerce_loop_add_to_cart_link('')
+#1 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/woocommerce/single-product/add-to-cart/simple.php(33): do_action('woocommerce_bef...')
+#4 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/plugins/woocommerce/includes/wc-core-funct in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php on line 259
+
+2022-09-01T06:56:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php on line 307 and exactly 2 expected in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php:259
+Stack trace:
+#0 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(307): quantity_inputs_for_woocommerce_loop_add_to_cart_link('')
+#1 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bzyyummy/public_html/websites/dream-scrapper/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/woocommerce/single-product/add-to-cart/simple.php(33): do_action('woocommerce_bef...')
+#4 /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/plugins/woocommerce/includes/wc-core-funct in /home/bzyyummy/public_html/websites/dream-scrapper/wp-content/themes/dream-scapers/functions.php on line 259
+

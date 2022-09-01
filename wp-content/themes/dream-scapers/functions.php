@@ -193,8 +193,10 @@ function mytheme_add_woocommerce_support() {
   add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 
 
-  add_action( 'woocommerce_after_shop_loop_item', 'cssigniter_buy_now_button', 15 );
-  add_action( 'woocommerce_after_add_to_cart_button', 'cssigniter_buy_now_button' );
+  add_action( 'woocommerce_after_shop_loop_item', 'cssigniter_buy_now_button', 3 );
+ // add_action( 'woocommerce_after_add_to_cart_button', 'cssigniter_buy_now_button',30 );
+  
+  
   function cssigniter_buy_now_button() {
 	  global $product;
   
@@ -249,3 +251,20 @@ function woocommerce_custom_product_add_to_cart_text() {
 * @snippet  Dropdown @ WooCommerce Shop & Archive Pages
 */
 remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
+
+/**
+ * Change number of related products output
+ */ 
+function woo_related_products_limit() {
+  global $product;
+	
+	$args['posts_per_page'] = 3;
+	return $args;
+}
+add_filter( 'woocommerce_output_related_products_args', 'jk_related_products_args', 20 );
+  function jk_related_products_args( $args ) {
+	$args['posts_per_page'] = 3; // 4 related products
+	$args['columns'] = 3; // arranged in 2 columns
+	return $args;
+}
+ 

@@ -1,7 +1,9 @@
-<?php get_header(); ?>
+<?php
 /*
 Template Name: woocommerce
 */
+get_header(); ?>
+
 
 	
 	<?php //get_template_part(innerbanner);?>
