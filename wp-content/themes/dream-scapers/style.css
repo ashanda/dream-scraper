@@ -678,6 +678,10 @@ form.checkout.woocommerce-checkout textarea {
 .sec_4_img {
     width: 20vw;
 }
+.sec_4_img img{
+    width: 100%;
+    height: auto;
+}
 .sec_4_cap{
     text-align: left;
     padding-left: 2vw;
