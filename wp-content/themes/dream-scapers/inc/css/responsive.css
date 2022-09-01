@@ -7,21 +7,26 @@
     .footer .text-end {
         text-align: center !important;
     }
-    .footer td{
+
+    .footer td {
         display: block;
     }
-    .footer_logo{
+
+    .footer_logo {
         width: 50px !important;
     }
-    table.icons.ms-auto{
+
+    table.icons.ms-auto {
         margin-top: 0 !important;
     }
-    .icons .nav-link{
+
+    .icons .nav-link {
         font-size: 1vw !important;
     }
 }
+
 @media only screen and (min-width: 768px) {
-    input#coupon_code{
+    input#coupon_code {
         width: auto;
     }
 }
@@ -32,4 +37,25 @@
         min-height: auto;
     }
 
+}
+
+@media screen and (min-device-width: 576px) and (max-device-width: 1400px) {
+
+    .woocommerce ul.products li.product,
+    .woocommerce-page ul.products li.product {
+        float: left;
+        margin: 0 2%;
+        padding: 0;
+        position: relative;
+        width: 46%;
+    }
+}
+@media only screen and (max-width: 1450px) {
+    .woocommerce ul.products li.product,
+    .woocommerce-page ul.products li.product {
+        width: 100%;
+        float: left;
+        clear: both;
+        margin: 0 0 2.992em;
+    }
 }
