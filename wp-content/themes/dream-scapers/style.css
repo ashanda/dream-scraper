@@ -416,8 +416,9 @@ table.icons.ms-auto {
 .footer_logo {
     width: 100%;
     height: auto;
-    max-width: 100px !important;
-    margin: 1vw;
+    max-width: 50px !important;
+    margin: 1.2vw;
+    margin-left: 4vw;
 }
 
 /* Other pages css */
@@ -461,11 +462,28 @@ a.added_to_cart.wc-forward {
 .woocommerce .quantity .qty {
     border: 1px solid rgb(0 0 0 / 25%);
 }
+.woocommerce a{
+    text-decoration: none;
+    color: #011c75;
+}
 
 a.checkout-button.button.alt.wc-forward,
 button#place_order,
 button.single_add_to_cart_button.button.alt {
     background-color: #011c75;
+}
+a.checkout-button.button.alt.wc-forward,
+button#place_order,
+button.single_add_to_cart_button.button.alt:hover {
+    background-color: #032fc3;
+}
+
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart{
+    background-color: #032fc3;
+    color: #fff;
+}
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart:hover{
+    background-color: #032fc3;
 }
 
 form.checkout.woocommerce-checkout input,
@@ -477,5 +495,5 @@ form.checkout.woocommerce-checkout textarea {
 
 /* single-product styles */
 .single-product .quantity .qty {
-    padding: 5px;
+    padding: 4.8px;
 }
