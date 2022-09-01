@@ -77,7 +77,7 @@ get_header();  ?>
     </div>
 </div>
 <!-- parallax Section 4 -->
-<div class="parallax parallax_3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_3.jpg');"></div>
+<div class="parallax parallax_3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');"></div>
 <!-- Content section 4 -->
 <div class="content_3">
     <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
@@ -85,10 +85,10 @@ get_header();  ?>
         <span class="gold">The Royalty Entitlement</span>
         <table width="100%">
             <tr>
-                <td>
-                    <img class="sec_4_img" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                <td class="sec_4_img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
                 </td>
-                <td>
+                <td class="sec_4_cap">
                     <span>At Dreamscaper Publishing. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
                         strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
                         Asset as the fi=foundation for wealthy-building in both the real and metaverse, and we’re exited to play
