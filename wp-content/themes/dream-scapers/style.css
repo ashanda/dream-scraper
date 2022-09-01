@@ -86,6 +86,20 @@ h6 {
 }
 
 /* Preloader styles */
+/* #preloader {
+    animation: ;
+} */
+
+@keyframes hide_slowly {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
 .pre_img1 {
     margin: auto;
     z-index: 99;
@@ -94,9 +108,11 @@ h6 {
 .pre_img1 {
     animation: rotate_right 60s infinite linear;
 }
+
 .pre_img2 {
     animation: rotate_left 30s infinite linear;
 }
+
 @keyframes rotate_right {
     from {
         transform: rotate(0deg);
@@ -116,7 +132,6 @@ h6 {
         transform: rotate(-359deg);
     }
 }
-
 
 #preloader {
     position: absolute;
