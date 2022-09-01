@@ -32,19 +32,7 @@
 
 
     <!-- Optional JavaScript; choose one of the two! -->
-    <?php if( is_front_page()) { ?>
-    <script>
-        // Preloader
-        function closePreloader() {
-
-        // const element = document.getElementById("preloader");
-        // element.remove();
-
-        document.getElementById("preloader").style.display = "none";
-        }
-     </script>
-
-     <?php } ?>
+   
 
     
     <!-- Option 1: Bootstrap Bundle with Popper -->
