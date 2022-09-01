@@ -494,7 +494,7 @@ table.icons.ms-auto {
 }
 
 .gold {
-    color: #f3bd0c;
+    color: #f3bd0c !important;
     text-shadow: 2px 2px #bc8b19;
 }
 
