@@ -32,11 +32,14 @@
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?> onload="closePreloader()">>
+<body <?php body_class(); ?> onload="closePreloader()">
     <?php wp_body_open(); ?>
 
     <!-- Preloader -->
-    <div id="preloader">hmmh.. <span>Loader.js</span> is Loading the resources.</div>
+    <div id="preloader">
+        <img class="pre_img1" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/default.png" alt="">
+        <img class="pre_img2" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/text_icon.png" alt="">
+    </div>
     <!-- Header -->
     <div class="top_section" style="background-image:url(<?php echo get_template_directory_uri(); ?>/inc/img/background_1.png);">
         <div class="header_top" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/header.png');">
