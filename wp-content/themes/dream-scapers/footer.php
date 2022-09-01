@@ -32,8 +32,21 @@
 
 
     <!-- Optional JavaScript; choose one of the two! -->
+    <?php if( is_front_page()) { ?>
+    <script>
+        // Preloader
+        function closePreloader() {
 
- 
+        // const element = document.getElementById("preloader");
+        // element.remove();
+
+        document.getElementById("preloader").style.display = "none";
+        }
+     </script>
+
+     <?php } ?>
+
+    
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/inc/js/script.js"></script>
