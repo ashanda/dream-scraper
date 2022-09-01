@@ -506,11 +506,17 @@ table.icons.ms-auto {
 .caption_2 {
     padding-top: 10vw;
 }
+.caption_2 {
+    padding-top: 10vw;
+}
 
 .content_3 {
     background: #011351;
 }
-
+.sec_4_img{
+    width: 100%;
+    height: auto;
+}
 .caption span {
     text-align: center;
     color: #011351;
