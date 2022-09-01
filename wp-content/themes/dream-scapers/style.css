@@ -73,7 +73,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html{
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 p,
