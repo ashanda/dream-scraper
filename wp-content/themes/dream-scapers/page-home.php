@@ -85,9 +85,9 @@ get_header();  ?>
 </div>
 <!-- parallax Section 4 -->
 <div class="parallax parallax_3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');"></div>
+<img class="devider" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_white.png');" alt="">
 <!-- Content section 4 -->
 <div class="content_4">
-    <img class="devider" src="<?php echo get_template_directory_uri(); ?>/inc/img/divider.png');" alt="">
     <div class="section bg-gray" id="diary">
         <div class="container">
             <div class="text-center">
