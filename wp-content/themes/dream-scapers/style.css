@@ -72,10 +72,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
- html {
+/* html {
     overflow-x: hidden;
 }
-
+body{
+    overflow-x: hidden;
+} */
 p,
 span,
 h1,
@@ -202,16 +204,29 @@ h6 {
     width: 100%;
     height: 1000%;
     z-index: 999999;
-    padding-top: 10%;
     background-color: #011351;
 }
-.pre_top_img{
-    width: 100%;
-    height: auto;
-    max-width: 14vw;
-    margin-bottom:1vw;
+
+.preloader_cotent {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+.pre_top_img {
+    width: 14vw;
+    height: auto;
+    max-width: 100px;
+    margin-bottom: 1vw;
+}
+
+.devider{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: -7vw;
+}
 /* Menu styles */
 #main-menu li {
     list-style: none;
@@ -223,7 +238,7 @@ h6 {
 }
 
 #main-menu li:hover {
-    transform: scale(1.04);
+    transform: scale(1.02);
     text-shadow: rgb(111 159 205 / 92%) 0px 0px 10px;
 }
 
@@ -300,6 +315,7 @@ li#menu-item-19 {
 
 table.icons.ms-auto {
     margin-top: 2vw;
+    width: 100%;
 }
 
 .icons .img-fluid {
@@ -333,8 +349,8 @@ table.icons.ms-auto {
     animation: rotation 85s infinite linear;
 }
 
-.content_1 #shop-link a{
-	display: block;
+.content_1 #shop-link a {
+    display: block;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
@@ -477,6 +493,33 @@ table.icons.ms-auto {
     margin-top: -16vw;
 }
 
+.buy_banner {
+    top: 70vw;
+    position: absolute;
+    text-align: center;
+    margin: 0 20vw;
+}
+
+.buy_banner img {
+    width: 100%;
+    height: auto;
+}
+
+.buy_banner .img_caption {
+    margin-top: -6vw;
+}
+
+.buy_banner a {
+    text-decoration: none;
+    font-size: 3vw;
+    color: #011351;
+    font-weight: 600;
+    transition-duration: 0.5s;
+}
+
+.buy_banner a:hover {
+    text-shadow: rgb(111 159 205 / 92%) 0px 0px 10px;
+}
 
 /* content  */
 .caption {
@@ -525,14 +568,12 @@ table.icons.ms-auto {
 }
 
 .caption_1 {
-    padding-top: 5vw;
+    padding-top: 25px;
 }
 
 .caption_2 {
-    padding-top: 10vw;
+    padding-top: 8vw;
 }
-
-
 
 .content_3 {
     background: #011351;
@@ -687,9 +728,14 @@ form.checkout.woocommerce-checkout textarea {
 .caption_3 {
     padding-top: 2vw;
 }
-
-.content_3 .gold {
+.content_4{
+    margin-top: 20px;
+}
+.content_4 .gold {
     font-size: 3vw;
+}
+.content_4 p{
+    font-size: 1.5vw;
 }
 
 .sec_4_img {
@@ -706,3 +752,60 @@ form.checkout.woocommerce-checkout textarea {
     padding-left: 2vw;
 }
 
+/* Diary section styles */
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.dy-img,
+.dy-caption {
+    padding: 20px;
+}
+
+.dy-img img {
+    width: 100;
+    height: auto;
+    transition: all .5s;
+}
+
+.dy-img img:hover {
+    transform: scale(1.02);
+}
+
+.dy-desc {
+    line-height: 2;
+}
+
+.dy-default {
+    display: block;
+}

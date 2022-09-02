@@ -1,4 +1,11 @@
+@media only screen and (max-width: 1200px) {
+    .content_4 p {
+        font-size: 2vw !important;
+    }
+}
+
 @media only screen and (max-width: 768px) {
+
     .header_top {
         padding-top: 1px !important;
     }
@@ -44,18 +51,41 @@
     .woocommerce ul.products li.product,
     .woocommerce-page ul.products li.product {
         float: left !important;
-        margin: 0 2% !important;
+        margin: 2% !important;
         padding: 0 !important;
         position: relative !important;
         width: 46% !important;
     }
 }
+
 @media only screen and (max-width: 576px) {
+
     .woocommerce ul.products li.product,
     .woocommerce-page ul.products li.product {
         width: 100% !important;
         float: left !important;
         clear: both !important;
         margin: 0 0 2.992em !important;
+    }
+
+    .buy_banner .img_caption {
+        margin-top: -7vw !important;
+    }
+
+    .icons .nav-link {
+        margin-right: -2vw !important;
+    }
+
+    .content_4 .gold {
+        font-size: 5vw !important;
+    }
+
+    .content_4 p {
+        font-size: 3vw !important;
+    }
+
+    .dy-img,
+    .dy-caption {
+        text-align: center !important;
     }
 }

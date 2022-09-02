@@ -40,18 +40,23 @@ get_header();  ?>
 </div>
 <!-- parallax Section 1 -->
 <div class="parallax parallax_1" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');">
-
+    <div class="buy_banner">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/img/buynow_button.jpg" alt="">
+        <div class="img_caption">
+            <a href="/shop/">Buy 4D Prototype Page Here</a>
+        </div>
+    </div>
 </div>
 <!-- Content section 1 -->
 <div class="content_1">
     <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
     <div class="caption header">
         <span class="gold">
-            We invited you to come for Wealth and, if you'd like, stay for the Revolution.
+            We invite you to come for Wealth and,<br>
+            If you’d like,<br>
+            stay for the Revolution.
+
         </span>
-		<span id="shop-link">
-		<a href="/shop/">Buy 4D Prototype Page Here</a>	
-		</span>
     </div>
 </div>
 <!-- parallax Section 2 -->
@@ -60,7 +65,7 @@ get_header();  ?>
 <div class="content_2">
     <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
     <div class="caption caption_1">
-        <span>In a world driven by value-extracion and exploitative principles, we, here at Dreamscapers Publishing,
+        <span>In a world driven by value-extracion and exploitative principles, we, here at Dreamscapers Publishing Inc,
             Inc., are building an ecosystem grounded in contribute and collaborative value principles. <br> By
             contributing and leveraging Our entire intellectual Property portfolio (from technology-related to
             brand-related and artistic-related IP), and sharing our earnings for the benefit of the many rather that
@@ -75,17 +80,94 @@ get_header();  ?>
 <div class="content_3">
     <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
     <div class="caption caption_2">
-        <span>At Dreamscaper Publishing. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
-            strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
-            Asset as the foundation for wealthy-building in both the real and metaverse, and we’re exited to play
-            an active role in ownership economy.</span>
+        <span>At Dreamscapers Publishing, we’re not interested in an “exit strategy.” We don’t seek an IPO nor do we strive to someday be acquired by a monopoly corporation. We believe in both, the Real and the metaverse, and we’re excited to play an active Role in Ownership Economy.</span>
     </div>
 </div>
 <!-- parallax Section 4 -->
 <div class="parallax parallax_3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');"></div>
+<img class="devider" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_white.png');" alt="">
 <!-- Content section 4 -->
-<div class="content_3">
-    <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
+<div class="content_4">
+    <div class="container">
+        <div class="d-sec mt-4">
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'year1')">Tab 1</button>
+                <button class="tablinks" onclick="openCity(event, 'year2')">Tab 2</button>
+                <button class="tablinks" onclick="openCity(event, 'year3')">Tab 3</button>
+                <button class="tablinks" onclick="openCity(event, 'year4')">Tab 4</button>
+            </div>
+
+            <div id="year1" class="dy-default tabcontent">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="dy-img">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="dy-caption">
+                            <div class="mb-2"><span class="gold">The Interverse Asset <sup>TM</sup></span></div>
+                            <p>The Interverse Asset<sup>TM</sup> is Dreamscapers Publishing’s trademark non-depreciable compact asset that provides economic and social utilities in both, our Real, tangible world, and the digital/metaverse.
+                            </p>
+                            <p>Dreamscapers Publishing launches The HoloNovel<sup>TM</sup> as its inaugural Interverse AssetTM. This inaugural collection is limited to only 2,000 HoloNovelTM volumes worldwide.</p>
+                            <p>The Interverse Asset<sup>TM</sup> is comprised of three interoperable yet distinct components/assets that generate surplus value:</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="year2" class="tabcontent">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="dy-img">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="dy-caption">
+                            <div class="mb-2"><span class="gold">The Physical Asset</span></div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos unde rem qui similique inventore animi distinctio, nesciunt saepe fugiat? Enim magni animi alias nihil blanditiis beatae aliquid doloribus, numquam in.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="year3" class="tabcontent">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="dy-img">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="dy-caption">
+                            <div class="mb-2"><span class="gold">The Limited Digital Asset (LDA)</span></div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa accusamus, animi esse nisi nemo, harum est voluptates doloremque saepe aliquam nobis beatae quam rem. Dignissimos quas illo consequatur voluptates aspernatur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="year4" class="tabcontent">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="dy-img">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/key_light.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="dy-caption">
+                            <div class="mb-2"><span class="gold">The Royalty Entitlement</span></div>
+                            <p>At Dreamscapers Publishing Inc. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
+                                strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
+                                Asset as the fi=foundation for wealthy-building in both the real and metaverse, and we’re exited to play
+                                an active role in ownership economy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
     <div class="caption caption_3">
         <span class="gold">The Royalty Entitlement</span>
         <table width="100%">
@@ -94,16 +176,14 @@ get_header();  ?>
                     <img src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
                 </td>
                 <td class="sec_4_cap">
-                    <span>At Dreamscaper Publishing. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
-                        strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
-                        Asset as the fi=foundation for wealthy-building in both the real and metaverse, and we’re exited to play
-                        an active role in ownership economy.</span>
+                    <span></span>
                 </td>
             </tr>
         </table>
-
-    </div>
+    </div> -->
 </div>
+
+
 
 
 <?php get_footer(); ?>
