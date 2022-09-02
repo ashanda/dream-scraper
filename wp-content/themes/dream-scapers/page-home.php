@@ -88,7 +88,7 @@ get_header();  ?>
 <img class="devider" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_white.png');" alt="">
 <!-- Content section 4 -->
 <div class="content_4">
-    <div class="container-fluid">
+    <div class="container">
         <div class="d-sec mt-4">
             <div class="tab">
                 <button class="tablinks" onclick="openCity(event, 'year1')">2005</button>
@@ -99,12 +99,12 @@ get_header();  ?>
 
             <div id="year1" class="dy-default tabcontent">
                 <div class="row">
-                    <div class="col-sm-5">
+                    <div class="col-sm-4">
                         <div class="dy-img">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
                         </div>
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-sm-8">
                         <div class="dy-caption">
                             <span class="gold">The Interverse Asset <sup>TM</sup></span>
                             <p>The Interverse Asset<sup>TM</sup> is Dreamscapers Publishing’s trademark non-depreciable compact asset that provides economic and social utilities in both, our Real, tangible world, and the digital/metaverse.
@@ -117,12 +117,12 @@ get_header();  ?>
             </div>
             <div id="year2" class="tabcontent">
                 <div class="row">
-                    <div class="col-sm-5">
+                    <div class="col-sm-4">
                         <div class="dy-img">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
                         </div>
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-sm-8">
                         <div class="dy-caption">
                             <span class="gold">The Physical Asset</span>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos unde rem qui similique inventore animi distinctio, nesciunt saepe fugiat? Enim magni animi alias nihil blanditiis beatae aliquid doloribus, numquam in.</p>
@@ -132,12 +132,12 @@ get_header();  ?>
             </div>
             <div id="year3" class="tabcontent">
                 <div class="row">
-                    <div class="col-sm-5">
+                    <div class="col-sm-4">
                         <div class="dy-img">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
                         </div>
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-sm-8">
                         <div class="dy-caption">
                             <span class="gold">The Limited Digital Asset (LDA)</span>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa accusamus, animi esse nisi nemo, harum est voluptates doloremque saepe aliquam nobis beatae quam rem. Dignissimos quas illo consequatur voluptates aspernatur.</p>
@@ -148,12 +148,12 @@ get_header();  ?>
 
             <div id="year4" class="tabcontent">
                 <div class="row">
-                    <div class="col-sm-5">
+                    <div class="col-sm-4">
                         <div class="dy-img">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
                         </div>
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-sm-8">
                         <div class="dy-caption">
                             <span class="gold">The Royalty Entitlement</span>
                             <p>At Dreamscaper Publishing Inc. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
