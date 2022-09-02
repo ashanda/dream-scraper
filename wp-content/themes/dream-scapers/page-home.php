@@ -80,10 +80,7 @@ get_header();  ?>
 <div class="content_3">
     <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
     <div class="caption caption_2">
-        <span>At Dreamscaper Publishing Inc. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
-            strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
-            Asset as the foundation for wealthy-building in both the real and metaverse, and we’re exited to play
-            an active role in ownership economy.</span>
+        <span>At Dreamscapers Publishing, we’re not interested in an “exit strategy.” We don’t seek an IPO nor do we strive to someday be acquired by a monopoly corporation. We believe in both, the Real and the metaverse, and we’re excited to play an active Role in Ownership Economy.</span>
     </div>
 </div>
 <!-- parallax Section 4 -->
