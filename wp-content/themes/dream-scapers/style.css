@@ -471,7 +471,7 @@ table.icons.ms-auto {
 
 .parallax {
     min-height: 50vw;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

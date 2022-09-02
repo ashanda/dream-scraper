@@ -58,4 +58,7 @@
         clear: both !important;
         margin: 0 0 2.992em !important;
     }
+    .buy_banner .img_caption {
+        margin-top: -9.5vw;
+    }
 }
