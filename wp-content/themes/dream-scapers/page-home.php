@@ -52,7 +52,10 @@ get_header();  ?>
     <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
     <div class="caption header">
         <span class="gold">
-            We invited you to come for Wealth and, if you'd like, stay for the Revolution.
+            We invite you to come for Wealth and,<br>
+            If you’d like,<br>
+            stay for the Revolution.
+
         </span>
     </div>
 </div>
