@@ -195,7 +195,6 @@ get_header();  ?>
             </div>
         </div>
     </div>
-    <img class="devider" src="<?php echo get_template_directory_uri(); ?>/inc/img/divider.png');" alt="">
     <!-- <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
     <div class="caption caption_3">
         <span class="gold">The Royalty Entitlement</span>
