@@ -740,3 +740,60 @@ form.checkout.woocommerce-checkout textarea {
     text-align: left;
     padding-left: 2vw;
 }
+
+/* Diary section styles */
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.dy-img,
+.dy-caption {
+    padding: 20px;
+}
+
+.dy-img img {
+    transition: all .5s;
+}
+
+.dy-img img:hover {
+    -webkit-box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.59);
+    box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.59);
+}
+
+.dy-desc {
+    line-height: 2;
+}
+
+.dy-default {
+    display: block;
+}

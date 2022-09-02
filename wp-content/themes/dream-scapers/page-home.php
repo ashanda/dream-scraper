@@ -106,6 +106,114 @@ get_header();  ?>
 
     </div>
 </div>
+<!-- test section -->
+<div class="section bg-gray" id="diary">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="header"><span class="blue">some milestones </span> from office diary</h2>
+        </div>
+        <div class="d-sec mt-4">
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'year1')">2005</button>
+                <button class="tablinks" onclick="openCity(event, 'year2')">2006</button>
+                <button class="tablinks" onclick="openCity(event, 'year3')">2007</button>
+                <button class="tablinks" onclick="openCity(event, 'year4')">2008</button>
+            </div>
+
+            <div id="year1" class="dy-default tabcontent">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="dy-img">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="dy-caption">
+                                <span class="dy-year">Sptember 2005</span>
+                                <h5 class="dy-title my-2">Lorem ipsum dolor</h5>
+                                <p class="dy-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+                                    sunt dolorum alias
+                                    quaerat reiciendis exercitationem earum tenetur eos atque fuga voluptatibus,
+                                    quis
+                                    aperiam! In harum tenetur doloremque laboriosam. Vitae, sequi?</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="year2" class="tabcontent">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="dy-img">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="dy-caption">
+                                <span class="dy-year">Sptember 2006</span>
+                                <h5 class="dy-title my-2">Lorem ipsum dolor</h5>
+                                <p class="dy-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+                                    sunt dolorum alias
+                                    quaerat reiciendis exercitationem earum tenetur eos atque fuga voluptatibus,
+                                    quis
+                                    aperiam! In harum tenetur doloremque laboriosam. Vitae, sequi?</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="year3" class="tabcontent">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="dy-img">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="dy-caption">
+                                <span class="dy-year">Sptember 2007</span>
+                                <h5 class="dy-title my-2">Lorem ipsum dolor</h5>
+                                <p class="dy-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+                                    sunt dolorum alias
+                                    quaerat reiciendis exercitationem earum tenetur eos atque fuga voluptatibus,
+                                    quis
+                                    aperiam! In harum tenetur doloremque laboriosam. Vitae, sequi?</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="year4" class="tabcontent">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="dy-img">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="dy-caption">
+                                <span class="dy-year">Sptember 2008</span>
+                                <h5 class="dy-title my-2">Lorem ipsum dolor</h5>
+                                <p class="dy-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+                                    sunt dolorum alias
+                                    quaerat reiciendis exercitationem earum tenetur eos atque fuga voluptatibus,
+                                    quis
+                                    aperiam! In harum tenetur doloremque laboriosam. Vitae, sequi?</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <?php get_footer(); ?>
