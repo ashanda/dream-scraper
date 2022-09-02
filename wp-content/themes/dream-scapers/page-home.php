@@ -91,10 +91,10 @@ get_header();  ?>
     <div class="container">
         <div class="d-sec mt-4">
             <div class="tab">
-                <button class="tablinks" onclick="openCity(event, 'year1')">2005</button>
-                <button class="tablinks" onclick="openCity(event, 'year2')">2006</button>
-                <button class="tablinks" onclick="openCity(event, 'year3')">2007</button>
-                <button class="tablinks" onclick="openCity(event, 'year4')">2008</button>
+                <button class="tablinks" onclick="openCity(event, 'year1')">Tab 1</button>
+                <button class="tablinks" onclick="openCity(event, 'year2')">Tab 2</button>
+                <button class="tablinks" onclick="openCity(event, 'year3')">Tab 3</button>
+                <button class="tablinks" onclick="openCity(event, 'year4')">Tab 4</button>
             </div>
 
             <div id="year1" class="dy-default tabcontent">
@@ -150,7 +150,7 @@ get_header();  ?>
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="dy-img">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/key_light.png" alt="">
                         </div>
                     </div>
                     <div class="col-sm-8">

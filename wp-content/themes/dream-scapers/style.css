@@ -793,12 +793,13 @@ form.checkout.woocommerce-checkout textarea {
 }
 
 .dy-img img {
+    width: 100;
+    height: auto;
     transition: all .5s;
 }
 
 .dy-img img:hover {
-    -webkit-box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.59);
-    box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.59);
+    transform: scale(1.02);
 }
 
 .dy-desc {
