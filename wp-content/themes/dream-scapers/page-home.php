@@ -87,26 +87,6 @@ get_header();  ?>
 <div class="parallax parallax_3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');"></div>
 <!-- Content section 4 -->
 <div class="content_3">
-    <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
-    <div class="caption caption_3">
-        <span class="gold">The Royalty Entitlement</span>
-        <table width="100%">
-            <tr>
-                <td class="sec_4_img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
-                </td>
-                <td class="sec_4_cap">
-                    <span>At Dreamscaper Publishing Inc. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
-                        strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
-                        Asset as the fi=foundation for wealthy-building in both the real and metaverse, and we’re exited to play
-                        an active role in ownership economy.</span>
-                </td>
-            </tr>
-        </table>
-
-    </div>
-</div>
-<!-- test section -->
 <div class="section bg-gray" id="diary">
     <div class="container">
         <div class="text-center">
@@ -214,6 +194,27 @@ get_header();  ?>
         </div>
     </div>
 </div>
+    <!-- <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
+    <div class="caption caption_3">
+        <span class="gold">The Royalty Entitlement</span>
+        <table width="100%">
+            <tr>
+                <td class="sec_4_img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                </td>
+                <td class="sec_4_cap">
+                    <span>At Dreamscaper Publishing Inc. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
+                        strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
+                        Asset as the fi=foundation for wealthy-building in both the real and metaverse, and we’re exited to play
+                        an active role in ownership economy.</span>
+                </td>
+            </tr>
+        </table>
+
+    </div> -->
+</div>
+<!-- test section -->
+
 
 
 <?php get_footer(); ?>
