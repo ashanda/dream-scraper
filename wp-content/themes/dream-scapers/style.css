@@ -734,6 +734,9 @@ form.checkout.woocommerce-checkout textarea {
 .content_4 .gold {
     font-size: 3vw;
 }
+.content_4 p{
+    font-size: 1.5vw;
+}
 
 .sec_4_img {
     width: 20vw;

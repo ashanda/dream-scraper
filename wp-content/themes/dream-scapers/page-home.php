@@ -106,7 +106,7 @@ get_header();  ?>
                     </div>
                     <div class="col-sm-8">
                         <div class="dy-caption">
-                            <span class="gold">The Interverse Asset <sup>TM</sup></span>
+                            <div class="mb-2"><span class="gold">The Interverse Asset <sup>TM</sup></span></div>
                             <p>The Interverse Asset<sup>TM</sup> is Dreamscapers Publishing’s trademark non-depreciable compact asset that provides economic and social utilities in both, our Real, tangible world, and the digital/metaverse.
                             </p>
                             <p>Dreamscapers Publishing launches The HoloNovel<sup>TM</sup> as its inaugural Interverse AssetTM. This inaugural collection is limited to only 2,000 HoloNovelTM volumes worldwide.</p>
@@ -124,7 +124,7 @@ get_header();  ?>
                     </div>
                     <div class="col-sm-8">
                         <div class="dy-caption">
-                            <span class="gold">The Physical Asset</span>
+                            <div class="mb-2"><span class="gold">The Physical Asset</span></div>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos unde rem qui similique inventore animi distinctio, nesciunt saepe fugiat? Enim magni animi alias nihil blanditiis beatae aliquid doloribus, numquam in.</p>
                         </div>
                     </div>
@@ -139,7 +139,7 @@ get_header();  ?>
                     </div>
                     <div class="col-sm-8">
                         <div class="dy-caption">
-                            <span class="gold">The Limited Digital Asset (LDA)</span>
+                            <div class="mb-2"><span class="gold">The Limited Digital Asset (LDA)</span></div>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa accusamus, animi esse nisi nemo, harum est voluptates doloremque saepe aliquam nobis beatae quam rem. Dignissimos quas illo consequatur voluptates aspernatur.</p>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ get_header();  ?>
                     </div>
                     <div class="col-sm-8">
                         <div class="dy-caption">
-                            <span class="gold">The Royalty Entitlement</span>
+                            <div class="mb-2"><span class="gold">The Royalty Entitlement</span></div>
                             <p>At Dreamscaper Publishing Inc. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
                                 strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
                                 Asset as the fi=foundation for wealthy-building in both the real and metaverse, and we’re exited to play
@@ -180,10 +180,9 @@ get_header();  ?>
                 </td>
             </tr>
         </table>
-
     </div> -->
 </div>
-<!-- test section -->
+
 
 
 
