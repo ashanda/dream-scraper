@@ -219,6 +219,10 @@ h6 {
     margin-bottom: 1vw;
 }
 
+.devider{
+    width: 100%;
+    height: auto;
+}
 /* Menu styles */
 #main-menu li {
     list-style: none;
