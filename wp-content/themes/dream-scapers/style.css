@@ -222,6 +222,8 @@ h6 {
 .devider{
     width: 100%;
     height: auto;
+    position: absolute;
+    margin-top: -7vw;
 }
 /* Menu styles */
 #main-menu li {
@@ -727,7 +729,7 @@ form.checkout.woocommerce-checkout textarea {
     padding-top: 2vw;
 }
 
-.content_3 .gold {
+.content_4 .gold {
     font-size: 3vw;
 }
 

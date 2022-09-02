@@ -88,10 +88,9 @@ get_header();  ?>
 <img class="devider" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_white.png');" alt="">
 <!-- Content section 4 -->
 <div class="content_4">
-    <div class="section bg-gray" id="diary">
-        <div class="container">
+        <div class="container-fluid">
             <div class="text-center">
-                <h2 class="header"><span class="blue">some milestones </span> from office diary</h2>
+            <span class="gold">The Royalty Entitlement</span>
             </div>
             <div class="d-sec mt-4">
                 <div class="tab">
@@ -194,7 +193,7 @@ get_header();  ?>
                 </div>
             </div>
         </div>
-    </div>
+  
     <!-- <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
     <div class="caption caption_3">
         <span class="gold">The Royalty Entitlement</span>
