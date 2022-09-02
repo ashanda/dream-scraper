@@ -61,4 +61,7 @@
     .buy_banner .img_caption {
         margin-top: -9.5vw !important;
     }
+    .icons .nav-link{
+        margin-right: -2vw !important;
+    }
 }

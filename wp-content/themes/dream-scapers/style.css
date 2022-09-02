@@ -213,9 +213,9 @@ h6 {
 }
 
 .pre_top_img {
-    width: 100%;
+    width: 14vw;
     height: auto;
-    max-width: 14vw;
+    max-width: 100px;
     margin-bottom: 1vw;
 }
 
@@ -307,6 +307,7 @@ li#menu-item-19 {
 
 table.icons.ms-auto {
     margin-top: 2vw;
+    width: 100%;
 }
 
 .icons .img-fluid {
