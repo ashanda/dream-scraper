@@ -32,7 +32,7 @@
 
 
     <!-- Optional JavaScript; choose one of the two! -->
-   
+   <script src="<?php echo get_template_directory_uri(); ?>/inc/js/script.js"></script>
 
     
     <!-- Option 1: Bootstrap Bundle with Popper -->
