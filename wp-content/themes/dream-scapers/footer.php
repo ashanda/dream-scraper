@@ -65,14 +65,7 @@
     </script>
     <!--End of Tawk.to Script-->
 
-    <!-- <script>
-        window.addEventListener('load', () => { // wait to load the page
-            setTimeout(() => {
-                document.getElementById("preloader").style.display = 'none' // hide the loader after 3.5 seconds
-                // hide the loader after 3.5 seconds 
-            }, 3500)
-        })
-    </script> -->
+   
     </body>
 
     </html>

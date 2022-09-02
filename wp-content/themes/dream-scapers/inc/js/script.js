@@ -1,21 +1,28 @@
-// Preloader
-function closePreloader() {
+// // Preloader
+// function closePreloader() {
 
-    // const element = document.getElementById("preloader");
-    // element.remove();
+//     // const element = document.getElementById("preloader");
+//     // element.remove();
+//     setTimeout(() => {
+//         document.getElementById("preloader").style.display = "none"; // hide the loader after 3.5 seconds
+
+//     }, 3500)
+
+//     jQuery(window).load(function () {
+
+//         closePreloader();
+
+//     });
+
+
+// }
+
+window.addEventListener('load', () => { // wait to load the page
     setTimeout(() => {
-        document.getElementById("preloader").style.display = "none"; // hide the loader after 3.5 seconds
-
+        document.getElementById("preloader").style.display = 'none' // hide the loader after 3.5 seconds
+        // hide the loader after 3.5 seconds 
     }, 3500)
-
-    jQuery(window).load(function () {
-
-        closePreloader();
-
-    });
-
-
-}
+})
 
 function openCity(evt, yearName) {
     var i, tabcontent, tablinks;
