@@ -44,7 +44,7 @@
     .woocommerce ul.products li.product,
     .woocommerce-page ul.products li.product {
         float: left !important;
-        margin: 0 2% !important;
+        margin: 2% !important;
         padding: 0 !important;
         position: relative !important;
         width: 46% !important;
