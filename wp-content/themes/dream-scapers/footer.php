@@ -19,7 +19,7 @@
                     <img class="footer_logo" src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" alt="">
                     <span>Copyright @<script>
                             document.write(new Date().getFullYear())
-                        </script> Dreamscaper Publishing</span>
+                        </script> Dreamscapers Publishing</span>
                 </div>
             </td>
             <td style="display: none;">

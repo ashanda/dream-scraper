@@ -65,7 +65,7 @@ get_header();  ?>
 <div class="content_2">
     <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
     <div class="caption caption_1">
-        <span>In a world driven by value-extracion and exploitative principles, we, here at Dreamscaper Publishing Inc,
+        <span>In a world driven by value-extracion and exploitative principles, we, here at Dreamscapers Publishing Inc,
             Inc., are building an ecosystem grounded in contribute and collaborative value principles. <br> By
             contributing and leveraging Our entire intellectual Property portfolio (from technology-related to
             brand-related and artistic-related IP), and sharing our earnings for the benefit of the many rather that
@@ -156,7 +156,7 @@ get_header();  ?>
                     <div class="col-sm-8">
                         <div class="dy-caption">
                             <div class="mb-2"><span class="gold">The Royalty Entitlement</span></div>
-                            <p>At Dreamscaper Publishing Inc. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
+                            <p>At Dreamscapers Publishing Inc. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
                                 strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
                                 Asset as the fi=foundation for wealthy-building in both the real and metaverse, and we’re exited to play
                                 an active role in ownership economy.</p>
