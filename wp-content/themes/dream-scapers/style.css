@@ -72,7 +72,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
+ html {
     overflow-x: hidden;
 }
 
@@ -202,8 +202,14 @@ h6 {
     width: 100%;
     height: 1000%;
     z-index: 999999;
-    padding-top: 20%;
+    padding-top: 10%;
     background-color: #011351;
+}
+.pre_top_img{
+    width: 100%;
+    height: auto;
+    max-width: 14vw;
+    margin-bottom:1vw;
 }
 
 /* Menu styles */
@@ -305,7 +311,7 @@ table.icons.ms-auto {
 .icons .nav-link {
     margin-right: 2vw;
     color: #e7bc39;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 /* icon_section */
@@ -325,6 +331,17 @@ table.icons.ms-auto {
 
 .icon_section .icon_lg.anm img {
     animation: rotation 85s infinite linear;
+}
+
+.content_1 #shop-link a{
+	display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background: #0d6efd;
+    width: 80vw;
+    margin: 10vw auto 0 auto;
+    border-radius: 20px;
 }
 
 @keyframes rotation {

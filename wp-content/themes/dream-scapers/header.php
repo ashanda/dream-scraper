@@ -32,26 +32,27 @@
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?> >
+<body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
     <!-- Preloader -->
-    <?php if( is_front_page()) { ?>
+    <?php if (is_front_page()) { ?>
 
-        
+
         <div id="preloader">
-        <h2 class="pre_text">Loading</h2>
-        <div class="lds-ellipsis">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <!-- <img class="pre_img1" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/default.png" alt="">
+            <img class="pre_top_img" src="<?php echo get_template_directory_uri(); ?>/inc/img/key_light.png">
+            <h2 class="pre_text">Loading</h2>
+            <div class="lds-ellipsis">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <!-- <img class="pre_img1" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/default.png" alt="">
         <img class="pre_img2" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/text_icon.png" alt=""> -->
-    </div>
+        </div>
 
-     <?php } ?>
+    <?php } ?>
 
 
     <!-- Header -->
