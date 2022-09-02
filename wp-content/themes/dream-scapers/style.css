@@ -72,7 +72,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
- html {
+html {
     overflow-x: hidden;
 }
 
@@ -205,11 +205,12 @@ h6 {
     padding-top: 10%;
     background-color: #011351;
 }
-.pre_top_img{
+
+.pre_top_img {
     width: 100%;
     height: auto;
     max-width: 14vw;
-    margin-bottom:1vw;
+    margin-bottom: 1vw;
 }
 
 /* Menu styles */
@@ -223,7 +224,7 @@ h6 {
 }
 
 #main-menu li:hover {
-    transform: scale(1.04);
+    transform: scale(1.02);
     text-shadow: rgb(111 159 205 / 92%) 0px 0px 10px;
 }
 
@@ -333,8 +334,8 @@ table.icons.ms-auto {
     animation: rotation 85s infinite linear;
 }
 
-.content_1 #shop-link a{
-	display: block;
+.content_1 #shop-link a {
+    display: block;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
@@ -476,17 +477,31 @@ table.icons.ms-auto {
     background-size: cover;
     margin-top: -16vw;
 }
-.buy_banner{
+
+.buy_banner {
     top: 70vw;
     position: absolute;
     text-align: center;
 }
-.buy_banner img{
+
+.buy_banner img {
     width: 100%;
     height: auto;
 }
-.buy_banner a{
 
+.buy_banner .img_caption {
+    margin-top: -8.5vw;
+}
+
+.buy_banner a {
+    text-decoration: none;
+    font-size: 3vw;
+    color: #011351;
+    font-weight: 600;
+    transition-duration: 0.5s;
+}
+.buy_banner a:hover {
+    text-shadow: rgb(111 159 205 / 92%) 0px 0px 10px;
 }
 
 /* content  */
@@ -716,4 +731,3 @@ form.checkout.woocommerce-checkout textarea {
     text-align: left;
     padding-left: 2vw;
 }
-
