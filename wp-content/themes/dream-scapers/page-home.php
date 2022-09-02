@@ -41,7 +41,7 @@ get_header();  ?>
 <!-- parallax Section 1 -->
 <div class="parallax parallax_1" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');">
     <div class="buy_banner">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/img/buynow_button" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/img/buynow_button.jpg" alt="">
         <a href="/shop/">Buy 4D Prototype Page Here</a>
     </div>
 </div>
