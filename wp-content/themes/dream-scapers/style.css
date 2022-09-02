@@ -75,7 +75,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 html {
     overflow-x: hidden;
 }
-
+body{
+    overflow-x: hidden;
+}
 p,
 span,
 h1,
