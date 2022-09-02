@@ -507,9 +507,6 @@ table.icons.ms-auto {
     color: #011351;
     font-weight: 600;
     transition-duration: 0.5s;
-    background-color: #032fc3;
-    border-color: #032fc3;
-    border-radius: 20vw;
 }
 
 .buy_banner a:hover {
