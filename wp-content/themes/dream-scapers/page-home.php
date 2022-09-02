@@ -40,7 +40,10 @@ get_header();  ?>
 </div>
 <!-- parallax Section 1 -->
 <div class="parallax parallax_1" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');">
-
+    <div class="buy_banner">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/img/buynow_button" alt="">
+        <a href="/shop/">Buy 4D Prototype Page Here</a>
+    </div>
 </div>
 <!-- Content section 1 -->
 <div class="content_1">
@@ -49,9 +52,6 @@ get_header();  ?>
         <span class="gold">
             We invited you to come for Wealth and, if you'd like, stay for the Revolution.
         </span>
-		<span id="shop-link">
-		<a href="/shop/">Buy 4D Prototype Page Here</a>	
-		</span>
     </div>
 </div>
 <!-- parallax Section 2 -->
