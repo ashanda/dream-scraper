@@ -88,112 +88,95 @@ get_header();  ?>
 <img class="devider" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_white.png');" alt="">
 <!-- Content section 4 -->
 <div class="content_4">
-        <div class="container-fluid">
-            <div class="text-center">
-            <span class="gold">The Royalty Entitlement</span>
+    <div class="container-fluid">
+        <div class="d-sec mt-4">
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'year1')">2005</button>
+                <button class="tablinks" onclick="openCity(event, 'year2')">2006</button>
+                <button class="tablinks" onclick="openCity(event, 'year3')">2007</button>
+                <button class="tablinks" onclick="openCity(event, 'year4')">2008</button>
             </div>
-            <div class="d-sec mt-4">
-                <div class="tab">
-                    <button class="tablinks" onclick="openCity(event, 'year1')">2005</button>
-                    <button class="tablinks" onclick="openCity(event, 'year2')">2006</button>
-                    <button class="tablinks" onclick="openCity(event, 'year3')">2007</button>
-                    <button class="tablinks" onclick="openCity(event, 'year4')">2008</button>
-                </div>
 
-                <div id="year1" class="dy-default tabcontent">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="dy-img">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
-                                </div>
-                            </td>
-                            <td>
-                                <div class="dy-caption">
-                                    <span class="dy-year">Sptember 2005</span>
-                                    <h5 class="dy-title my-2">Lorem ipsum dolor</h5>
-                                    <p class="dy-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-                                        sunt dolorum alias
-                                        quaerat reiciendis exercitationem earum tenetur eos atque fuga voluptatibus,
-                                        quis
-                                        aperiam! In harum tenetur doloremque laboriosam. Vitae, sequi?</p>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+            <div id="year1" class="dy-default tabcontent">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="dy-img">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="dy-caption">
+                                <span class="gold">The Interverse Asset <sup>TM</sup></span>
+                                <p>The Interverse Asset<sup>TM</sup> is Dreamscapers Publishing’s trademark non-depreciable compact asset that provides economic and social utilities in both, our Real, tangible world, and the digital/metaverse.
+                                </p>
+                                <p>Dreamscapers Publishing launches The HoloNovel<sup>TM</sup> as its inaugural Interverse AssetTM. This inaugural collection is limited to only 2,000 HoloNovelTM volumes worldwide.</p>
+                                <p>The Interverse Asset<sup>TM</sup> is comprised of three interoperable yet distinct components/assets that generate surplus value:</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-                <div id="year2" class="tabcontent">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="dy-img">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
-                                </div>
-                            </td>
-                            <td>
-                                <div class="dy-caption">
-                                    <span class="dy-year">Sptember 2006</span>
-                                    <h5 class="dy-title my-2">Lorem ipsum dolor</h5>
-                                    <p class="dy-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-                                        sunt dolorum alias
-                                        quaerat reiciendis exercitationem earum tenetur eos atque fuga voluptatibus,
-                                        quis
-                                        aperiam! In harum tenetur doloremque laboriosam. Vitae, sequi?</p>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+            <div id="year2" class="tabcontent">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="dy-img">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="dy-caption">
+                                <span class="gold">The Physical Asset</span>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos unde rem qui similique inventore animi distinctio, nesciunt saepe fugiat? Enim magni animi alias nihil blanditiis beatae aliquid doloribus, numquam in.</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-                <div id="year3" class="tabcontent">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="dy-img">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
-                                </div>
-                            </td>
-                            <td>
-                                <div class="dy-caption">
-                                    <span class="dy-year">Sptember 2007</span>
-                                    <h5 class="dy-title my-2">Lorem ipsum dolor</h5>
-                                    <p class="dy-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-                                        sunt dolorum alias
-                                        quaerat reiciendis exercitationem earum tenetur eos atque fuga voluptatibus,
-                                        quis
-                                        aperiam! In harum tenetur doloremque laboriosam. Vitae, sequi?</p>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+            <div id="year3" class="tabcontent">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="dy-img">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="dy-caption">
+                                <span class="gold">The Limited Digital Asset (LDA)</span>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa accusamus, animi esse nisi nemo, harum est voluptates doloremque saepe aliquam nobis beatae quam rem. Dignissimos quas illo consequatur voluptates aspernatur.</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-                <div id="year4" class="tabcontent">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="dy-img">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
-                                </div>
-                            </td>
-                            <td>
-                                <div class="dy-caption">
-                                    <span class="dy-year">Sptember 2008</span>
-                                    <h5 class="dy-title my-2">Lorem ipsum dolor</h5>
-                                    <p class="dy-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-                                        sunt dolorum alias
-                                        quaerat reiciendis exercitationem earum tenetur eos atque fuga voluptatibus,
-                                        quis
-                                        aperiam! In harum tenetur doloremque laboriosam. Vitae, sequi?</p>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+            <div id="year4" class="tabcontent">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="dy-img">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="dy-caption">
+                                <span class="gold">The Royalty Entitlement</span>
+                                <p>At Dreamscaper Publishing Inc. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
+                                    strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
+                                    Asset as the fi=foundation for wealthy-building in both the real and metaverse, and we’re exited to play
+                                    an active role in ownership economy.</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
-  
+    </div>
+
     <!-- <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
     <div class="caption caption_3">
         <span class="gold">The Royalty Entitlement</span>
@@ -203,10 +186,7 @@ get_header();  ?>
                     <img src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
                 </td>
                 <td class="sec_4_cap">
-                    <span>At Dreamscaper Publishing Inc. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
-                        strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
-                        Asset as the fi=foundation for wealthy-building in both the real and metaverse, and we’re exited to play
-                        an active role in ownership economy.</span>
+                    <span></span>
                 </td>
             </tr>
         </table>

@@ -728,7 +728,9 @@ form.checkout.woocommerce-checkout textarea {
 .caption_3 {
     padding-top: 2vw;
 }
-
+.content_4{
+    margin-top: 20px;
+}
 .content_4 .gold {
     font-size: 3vw;
 }
