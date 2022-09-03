@@ -166,7 +166,7 @@ get_header();  ?>
         </div>
     </div> -->
     <div class="container accordion_section">
-        <button class="accordion">Section 1</button>
+        <button class="accordion">The Interverse Asset <sup>TM</sup></button>
         <div class="panel" style="display: block;">
             <div class="row">
                 <div class="col-sm-4">
@@ -186,7 +186,7 @@ get_header();  ?>
             </div>
         </div>
 
-        <button class="accordion">Section 2</button>
+        <button class="accordion">The Physical Asset</button>
         <div class="panel">
             <div class="row">
                 <div class="col-sm-4">
@@ -203,7 +203,7 @@ get_header();  ?>
             </div>
         </div>
 
-        <button class="accordion">Section 3</button>
+        <button class="accordion">The Limited Digital Asset (LDA)</button>
         <div class="panel">
             <div class="row">
                 <div class="col-sm-4">
@@ -219,7 +219,7 @@ get_header();  ?>
                 </div>
             </div>
         </div>
-        <button class="accordion">Section 3</button>
+        <button class="accordion">The Royalty Entitlement</button>
         <div class="panel">
             <div class="row">
                 <div class="col-sm-4">
