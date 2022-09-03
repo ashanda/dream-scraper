@@ -499,7 +499,7 @@ table.icons.ms-auto {
     background-size: cover;
     margin-top: -16vw;
     background-repeat-y: repeat;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .buy_banner {

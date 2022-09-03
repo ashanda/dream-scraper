@@ -35,7 +35,28 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 
+var body = document.getElementsByTagName('body')[0];
+body.style.backgroundColor = 'green';
 
+// trigger this function every time the user scrolls
+window.onscroll = function (event) {
+    var scroll = window.pageYOffset;
+    if (scroll < 300) {
+        console.log("1");
+    } else if (scroll >= 300 && scroll < 600) {
+        console.log("2");
+    } else if (scroll >= 600 && scroll < 1200) {
+        console.log("3");
+    } else if (scroll >= 1200 && scroll < 1800) {
+        console.log("4");
+    } else if (scroll >= 1800 && scroll < 3000) {
+        console.log("5");
+    } else {
+        // purple
+        body.style.backgroundColor = 'purple';
+    }
+}
+</script >
 
 
 // function closePreloader() {
