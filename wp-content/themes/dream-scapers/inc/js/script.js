@@ -54,7 +54,7 @@ if (window.innerWidth <= 768) {
         parallax_2.style.backgroundPositionY = ((x/20) - 10) + 'vw';
         parallax_3.style.backgroundPositionY = (x - 10) + 'vw';
         parallax_4.style.backgroundPositionY = (x - 10) + 'vw';
-        console.log('x='x);
+        console.log('x='+ x);
     }
 }
 else { // viewportWidth width > 991
