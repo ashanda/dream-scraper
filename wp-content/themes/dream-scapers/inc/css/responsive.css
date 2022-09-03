@@ -38,6 +38,7 @@
     }
     .dy-img img {
        position: absolute !important;
+       max-width: 20vw !important;
     }
     .panel {
         min-height: 34vw !important;
