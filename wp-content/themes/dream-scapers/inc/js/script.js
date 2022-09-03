@@ -43,7 +43,7 @@ var parallax_4 = document.getElementById('parallax_4');
 // trigger this function every time the user scrolls
 window.onscroll = function (event) {
     var x = window.pageYOffset;
-    console.log(x);
+        parallax_1.style.backgroundPositionY = x-2+'vw';
 }
 
 
