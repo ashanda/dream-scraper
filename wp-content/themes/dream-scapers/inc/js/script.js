@@ -43,11 +43,12 @@ var parallax_4 = document.getElementById('parallax_4');
 // trigger this function every time the user scrolls
 window.onscroll = function (event) {
     var x = window.pageYOffset;
-        // parallax_1.style.backgroundPositionY = ((x/100)-5)+'vw';
-        parallax_1.style.backgroundPositionY = (x-x)+'vw';
-        parallax_2.style.backgroundPositionY = ((x/100)-10)+'vw';
-        parallax_3.style.backgroundPositionY = ((x/100)-15)+'vw';
-        parallax_4.style.backgroundPositionY = (x/100)+'vw';
+    var y = document.height;
+    // parallax_1.style.backgroundPositionY = ((x/100)-5)+'vw';
+    parallax_1.style.backgroundPositionY = (y - x) + 'vw';
+    parallax_2.style.backgroundPositionY = ((x / 100) - 10) + 'vw';
+    parallax_3.style.backgroundPositionY = ((x / 100) - 15) + 'vw';
+    parallax_4.style.backgroundPositionY = (x / 100) + 'vw';
 }
 
 
