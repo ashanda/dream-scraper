@@ -83,7 +83,7 @@ get_header();  ?>
     </div>
 </div>
 <!-- parallax Section 4 -->
-<div class="parallax_4" class="parallax parallax_4" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');"></div>
+<div id="parallax_4" class="parallax parallax_4" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');"></div>
 <img class="devider" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_white.png');" alt="">
 <!-- Content section 4 -->
 <div class="content_4">
