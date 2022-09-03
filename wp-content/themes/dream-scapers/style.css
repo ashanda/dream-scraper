@@ -493,13 +493,21 @@ table.icons.ms-auto {
 
 .parallax {
     min-height: 50vw;
-    background-attachment: fixed;
-    background-position: center;
+    /* background-attachment: fixed; */
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -16vw;
     background-repeat-y: repeat;
     transition-duration: 0.5s;
+}
+.parallax_1,
+.parallax_4{
+    background-position-y:1vw ;
+}
+.parallax_2,
+.parallax_3{
+    background-position-y: 18vw;
 }
 
 .buy_banner {

@@ -39,7 +39,7 @@ get_header();  ?>
 </div>
 </div>
 <!-- parallax Section 1 -->
-<div class="parallax parallax_1" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');">
+<div id="parallax_1" class="parallax parallax_1" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');">
     <div class="buy_banner">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/img/buynow_button.png" alt="">
         <div class="img_caption">
@@ -59,7 +59,7 @@ get_header();  ?>
     </div>
 </div>
 <!-- parallax Section 2 -->
-<div class="parallax parallax_2" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_2.jpg');"></div>
+<div id="parallax_2" class="parallax parallax_2" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_2.jpg');"></div>
 <!-- Content section 2 -->
 <div class="content_2">
     <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
@@ -74,7 +74,7 @@ get_header();  ?>
     </div>
 </div>
 <!-- parallax Section 3 -->
-<div class="parallax parallax_3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_3.jpg');"></div>
+<div id="parallax_3" class="parallax parallax_3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_3.jpg');"></div>
 <!-- Content section 3 -->
 <div class="content_3">
     <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
@@ -83,7 +83,7 @@ get_header();  ?>
     </div>
 </div>
 <!-- parallax Section 4 -->
-<div class="parallax parallax_3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');"></div>
+<div class="parallax_4" class="parallax parallax_4" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');"></div>
 <img class="devider" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_white.png');" alt="">
 <!-- Content section 4 -->
 <div class="content_4">
