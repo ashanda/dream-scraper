@@ -32,7 +32,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> onscroll="scroll_function()">
     <?php wp_body_open(); ?>
 
     <!-- Preloader -->
@@ -91,7 +91,7 @@
                         <td><a class="nav-link" href="javascript:void(Tawk_API.toggle())"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/chat_icon.png" alt="">
                                 Live Chat</a></td>
                         <td><a class="nav-link" href="mailto:support@dreamscaperspublishing.com"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/email-icon.png" alt="">
-                        support@dreamscaperspublishing.com</a></td>
+                                support@dreamscaperspublishing.com</a></td>
 
                     </tr>
                 </table>
