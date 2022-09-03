@@ -49,7 +49,10 @@ var height = Math.max(body.scrollHeight, body.offsetHeight,
 // trigger this function every time the user scrolls
 if (window.innerWidth <= 768) {
     var x = window.pageYOffset;
-    console.log('x = '+ x);
+    parallax_1.style.backgroundPositionY = ((x / 100) - 10) * 2 + 'vw';
+    parallax_2.style.backgroundPositionY = ((x / 100) - 18) * 2 + 'vw';
+    parallax_3.style.backgroundPositionY = ((x / 100) - 34) * 2 + 'vw';
+    parallax_4.style.backgroundPositionY = ((x / 100) + 10) * 2 + 'vw';
 }
 else { // viewportWidth width > 991
     window.onscroll = function (event) {
