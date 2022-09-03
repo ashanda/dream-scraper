@@ -60,8 +60,8 @@
             })();
             </script>
             <!--End of Tawk.to Script-->
-
-        <script src="<?php echo get_template_directory_uri(); ?>/inc/js/script.js"></script>
+            <!------- custome js script ------------->
+            <script src="<?php echo get_template_directory_uri(); ?>/inc/js/script.js"></script>
    
     </body>
 
