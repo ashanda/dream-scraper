@@ -52,7 +52,7 @@ window.onscroll = function (event) {
     parallax_1.style.backgroundPositionY = ((x / 20)-9) + 'vw';
     parallax_2.style.backgroundPositionY = ((x / 20) - 22) + 'vw';
     parallax_3.style.backgroundPositionY = ((x / 20) - 28) + 'vw';
-    parallax_4.style.backgroundPositionY = ((x / 20) - -38) + 'vw';
+    parallax_4.style.backgroundPositionY = ((x / 20) -38) + 'vw';
     console.log(x);
 }
 

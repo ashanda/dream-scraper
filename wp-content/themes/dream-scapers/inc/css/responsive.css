@@ -88,7 +88,16 @@
     .dy-caption {
         text-align: center !important;
     }
-    .caption_1{
+
+    .caption_1 {
         padding-top: 2vw !important;
+    }
+
+    .gold {
+        text-shadow: none !important;
+    }
+
+    .header .gold {
+        text-shadow: none !important;
     }
 }
