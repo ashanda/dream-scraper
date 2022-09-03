@@ -53,6 +53,7 @@ window.onscroll = function (event) {
     parallax_2.style.backgroundPositionY = ((x / 20) - 10) + 'vw';
     parallax_3.style.backgroundPositionY = ((x / 20) - 10) + 'vw';
     parallax_4.style.backgroundPositionY = ((x / 20) - 10) + 'vw';
+    console.log(x);
 }
 
 
