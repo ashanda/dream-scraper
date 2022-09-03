@@ -494,7 +494,7 @@ table.icons.ms-auto {
 }
 
 .buy_banner {
-    top: 70vw;
+    top: 71vw;
     position: absolute;
     text-align: center;
     margin: 0 20vw;
@@ -568,11 +568,11 @@ table.icons.ms-auto {
 }
 
 .caption_1 {
-    padding-top: 25px;
+    padding-top: 7vw;
 }
 
 .caption_2 {
-    padding-top: 8vw;
+    padding-top: 10vw;
 }
 
 .content_3 {
