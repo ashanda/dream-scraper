@@ -499,7 +499,6 @@ table.icons.ms-auto {
     background-size: cover;
     margin-top: -16vw;
     background-repeat-y: repeat;
-    transition-duration: 0.5s;
 }
 .parallax_1,
 .parallax_4{
