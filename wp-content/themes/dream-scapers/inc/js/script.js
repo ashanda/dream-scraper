@@ -50,10 +50,10 @@ var height = Math.max(body.scrollHeight, body.offsetHeight,
 if (window.innerWidth <= 768) {
     window.onscroll = function (event) {
         var x = window.pageYOffset;
-        parallax_1.style.backgroundPositionY = (((x/2) / 100) - 10) + 'vw';
-        parallax_2.style.backgroundPositionY = (((x) / 100) - 18) + 'vw';
-        parallax_3.style.backgroundPositionY = (((x*2) / 100) - 34) + 'vw';
-        parallax_4.style.backgroundPositionY = (((x*2) / 100) + 10) + 'vw';
+        parallax_1.style.backgroundPositionY = (x - 10) + 'vw';
+        parallax_2.style.backgroundPositionY = (x - 10) + 'vw';
+        parallax_3.style.backgroundPositionY = (x - 10) + 'vw';
+        parallax_4.style.backgroundPositionY = (x - 10) + 'vw';
     }
 }
 else { // viewportWidth width > 991
