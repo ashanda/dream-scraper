@@ -93,7 +93,7 @@ get_header();  ?>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="dy-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/sec_1.png" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/sec_1.png" alt="">
                     </div>
                 </div>
                 <div class="col-sm-8">
@@ -119,7 +119,8 @@ get_header();  ?>
                 <div class="col-sm-8">
                     <div class="dy-caption">
                         <div class="mb-2"><span class="gold">The Physical Asset</span></div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos unde rem qui similique inventore animi distinctio, nesciunt saepe fugiat? Enim magni animi alias nihil blanditiis beatae aliquid doloribus, numquam in.</p>
+                        <p>Each of the 2,000 collectible physical assets is authenticated and traced via a concealed Interverse ChipTM embedded inside the cover.The Interverse ChipTM is a silicon microchip that uses Near-Field Communication (NFC) technology. Each Interverse hipTM contains essential data regarding ownership such as, proof of ownership, proof of authenticity, and even geolocation data. Once the Interverse ChipTM is encoded with the relevant ownership information, its digital twin, int the form of Limited Digital Asset (LDA), is encrypted and secured on the blockchain network.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -136,7 +137,8 @@ get_header();  ?>
                 <div class="col-sm-8">
                     <div class="dy-caption">
                         <div class="mb-2"><span class="gold">The Limited Digital Asset (LDA)</span></div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa accusamus, animi esse nisi nemo, harum est voluptates doloremque saepe aliquam nobis beatae quam rem. Dignissimos quas illo consequatur voluptates aspernatur.</p>
+                        <p>The data embedded in the Interverse ChipTM of each physical asset, is also encrypted in each Limited Digital Asset (LDA). Data such as legal information, authentication details, ownership information, and royalty system is securely registered on the immutable blockchain network.
+                        </p>
                     </div>
                 </div>
             </div>
