@@ -49,10 +49,10 @@ var height = Math.max(body.scrollHeight, body.offsetHeight,
 // trigger this function every time the user scrolls
 window.onscroll = function (event) {
     var x = window.pageYOffset;
-    parallax_1.style.backgroundPositionY = ((x / 20)) + 'vw';
+    parallax_1.style.backgroundPositionY = ((x / 20)-9) + 'vw';
     parallax_2.style.backgroundPositionY = ((x / 20) - 22) + 'vw';
     parallax_3.style.backgroundPositionY = ((x / 20) - 28) + 'vw';
-    parallax_4.style.backgroundPositionY = ((x / 20) - -28) + 'vw';
+    parallax_4.style.backgroundPositionY = ((x / 20) - -38) + 'vw';
     console.log(x);
 }
 
