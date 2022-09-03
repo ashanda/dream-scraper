@@ -93,7 +93,7 @@ get_header();  ?>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="dy-img">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/key_light.png" alt="">
                     </div>
                 </div>
                 <div class="col-sm-8">
