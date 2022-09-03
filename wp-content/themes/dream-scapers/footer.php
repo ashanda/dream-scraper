@@ -37,7 +37,6 @@
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <?php /*
     <script src="<?php echo get_template_directory_uri(); ?>/inc/js/script.js"></script>
     */ ?>
