@@ -34,13 +34,7 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
-function scroll_function() {
-    const boxes = document.querySelectorAll('.parallax');
 
-    boxes.forEach(box => {
-        box.style.width = '300px';
-    });
-}
 // function closePreloader() {
 
 //     // const element = document.getElementById("preloader");
