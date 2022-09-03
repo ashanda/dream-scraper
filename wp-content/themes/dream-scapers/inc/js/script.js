@@ -19,7 +19,7 @@ function openCity(evt, yearName) {
     document.getElementById(yearName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-
+// accordion section
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -35,6 +35,7 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 
+// parallax js
 var parallax_1 = document.getElementById('parallax_1');
 var parallax_2 = document.getElementById('parallax_2');
 var parallax_3 = document.getElementById('parallax_3');
@@ -53,7 +54,6 @@ window.onscroll = function (event) {
     parallax_2.style.backgroundPositionY = ((x / 20) - 22) + 'vw';
     parallax_3.style.backgroundPositionY = ((x / 20) - 28) + 'vw';
     parallax_4.style.backgroundPositionY = ((x / 20) -38) + 'vw';
-    console.log(x);
 }
 
 

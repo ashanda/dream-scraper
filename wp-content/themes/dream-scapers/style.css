@@ -812,7 +812,7 @@ form.checkout.woocommerce-checkout textarea {
 }
 
 .dy-img img {
-    width: 100;
+    width: 100%;
     height: auto;
     transition: all .5s;
 }

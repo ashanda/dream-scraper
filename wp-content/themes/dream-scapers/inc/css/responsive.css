@@ -36,6 +36,12 @@
     input#coupon_code {
         width: auto;
     }
+    .dy-img img {
+       position: absolute !important;
+    }
+    .panel {
+        min-height: 34vw !important;
+    }
 }
 
 @media only screen and (max-width: 1450px) {
