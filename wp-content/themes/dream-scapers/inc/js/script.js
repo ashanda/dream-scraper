@@ -35,6 +35,11 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 
+$(window).scroll(function() {
+    var scrolledY = $(window).scrollTop();
+    $('.parallax').css('background-position-y', 'center ' + ((scrolledY)) + 'px');
+});
+
 // function closePreloader() {
 
 //     // const element = document.getElementById("preloader");
