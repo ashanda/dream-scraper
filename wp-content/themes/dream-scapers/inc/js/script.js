@@ -52,8 +52,8 @@ window.onscroll = function (event) {
     var y = height;
     // parallax_1.style.backgroundPositionY = ((x/100)-5)+'vw';
     parallax_1.style.backgroundPositionY = (y - 50) + 'vw';
-    parallax_2.style.backgroundPositionY = ((x / 100) - 10) + 'vw';
-    parallax_3.style.backgroundPositionY = ((x / 100) - 15) + 'vw';
+    parallax_2.style.backgroundPositionY = (10-(x / 100)) + 'vw';
+    parallax_3.style.backgroundPositionY = (15-(x / 100)) + 'vw';
     parallax_4.style.backgroundPositionY = (x / 100) + 'vw';
     console.log("height = "+ y);
 }
