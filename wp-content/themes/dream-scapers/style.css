@@ -224,12 +224,13 @@ h6 {
     margin-bottom: 1vw;
 }
 
-.devider{
+.devider {
     width: 100%;
     height: auto;
     position: absolute;
     margin-top: -7vw;
 }
+
 /* Menu styles */
 #main-menu li {
     list-style: none;
@@ -731,13 +732,16 @@ form.checkout.woocommerce-checkout textarea {
 .caption_3 {
     padding-top: 2vw;
 }
-.content_4{
+
+.content_4 {
     margin-top: 20px;
 }
+
 .content_4 .gold {
     font-size: 3vw;
 }
-.content_4 p{
+
+.content_4 p {
     font-size: 1.5vw;
 }
 
@@ -811,4 +815,30 @@ form.checkout.woocommerce-checkout textarea {
 
 .dy-default {
     display: block;
+}
+
+/* new */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
 }

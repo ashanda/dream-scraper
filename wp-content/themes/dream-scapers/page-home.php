@@ -41,7 +41,7 @@ get_header();  ?>
 <!-- parallax Section 1 -->
 <div class="parallax parallax_1" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');">
     <div class="buy_banner">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/img/buynow_button.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/img/buynow_button.png" alt="">
         <div class="img_caption">
             <a href="/shop/">Buy 4D Prototype Page Here</a>
         </div>
@@ -55,7 +55,6 @@ get_header();  ?>
             We invite you to come for Wealth and,<br>
             If you’d like,<br>
             stay for the Revolution.
-
         </span>
     </div>
 </div>
@@ -88,7 +87,7 @@ get_header();  ?>
 <img class="devider" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_white.png');" alt="">
 <!-- Content section 4 -->
 <div class="content_4">
-    <div class="container">
+    <!-- <div class="container">
         <div class="d-sec mt-4">
             <div class="tab">
                 <button class="tablinks" onclick="openCity(event, 'year1')">Tab 1</button>
@@ -164,6 +163,22 @@ get_header();  ?>
                     </div>
                 </div>
             </div>
+        </div>
+    </div> -->
+    <div class="container-fluid">
+        <button class="accordion">Section 1</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <button class="accordion">Section 2</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <button class="accordion">Section 3</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
     </div>
 
