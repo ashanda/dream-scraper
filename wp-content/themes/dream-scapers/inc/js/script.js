@@ -42,21 +42,8 @@ var parallax_4 = document.getElementById('parallax_4');
 
 // trigger this function every time the user scrolls
 window.onscroll = function (event) {
-    var scroll = window.pageYOffset;
-    if (scroll < 300) {
-        parallax_1.style.backgroundPositionY = '-9vw';
-        parallax_2.style.backgroundPositionY = '0vw';
-    } else if (scroll >= 300 && scroll < 600) {
-        parallax_2.style.backgroundPositionY = '0vw';
-    } else if (scroll >= 600 && scroll < 900) {
-        parallax_1.style.backgroundPositionY = 'green';
-    } else if (scroll >= 900 && scroll < 1200) {
-        parallax_1.style.backgroundPositionY = 'green';
-    } else if (scroll >= 1200 && scroll < 1500) {
-        parallax_1.style.backgroundPositionY = 'green';
-    } else {
-        parallax_1.style.backgroundPositionY = 'green';
-    }
+    var x = window.pageYOffset;
+    console.log(x);
 }
 
 
