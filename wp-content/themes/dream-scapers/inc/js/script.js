@@ -51,10 +51,10 @@ window.onscroll = function (event) {
     var x = window.pageYOffset;
     var y = height;
     parallax_1.style.backgroundPositionY = ((x / 100)-10)*2 + 'vw';
-    parallax_2.style.backgroundPositionY = ((x / 100)-10)*2 + 'vw';
+    parallax_2.style.backgroundPositionY = ((x / 100)-5) + 'vw';
     parallax_3.style.backgroundPositionY = ((x / 100)-15) + 'vw';
     parallax_4.style.backgroundPositionY = ((x / 100)-5) + 'vw';
-    // console.log("height = "+ y);
+    console.log(x);
 }
 
 
