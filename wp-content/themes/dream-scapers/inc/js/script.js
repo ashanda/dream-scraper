@@ -47,15 +47,21 @@ var height = Math.max(body.scrollHeight, body.offsetHeight,
     html.clientHeight, html.scrollHeight, html.offsetHeight);
 
 // trigger this function every time the user scrolls
-window.onscroll = function (event) {
-    var x = window.pageYOffset;
-    var y = height;
-    parallax_1.style.backgroundPositionY = ((x / 100)-10)*2 + 'vw';
-    parallax_2.style.backgroundPositionY = ((x / 100)-18)*2 + 'vw';
-    parallax_3.style.backgroundPositionY = ((x / 100)-34) + 'vw';
-    parallax_4.style.backgroundPositionY = ((x / 100)+10) + 'vw';
-    console.log(x);
+if (window.innerWidth <= 768) {
+   
 }
+else { // viewportWidth width > 991
+    window.onscroll = function (event) {
+        var x = window.pageYOffset;
+        var y = height;
+        parallax_1.style.backgroundPositionY = ((x / 100) - 10) * 2 + 'vw';
+        parallax_2.style.backgroundPositionY = ((x / 100) - 18) * 2 + 'vw';
+        parallax_3.style.backgroundPositionY = ((x / 100) - 34) * 2 + 'vw';
+        parallax_4.style.backgroundPositionY = ((x / 100) + 10) * 2 + 'vw';
+        console.log(x);
+    }
+}
+
 
 
 // function closePreloader() {
