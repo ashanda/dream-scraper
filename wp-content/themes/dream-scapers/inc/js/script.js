@@ -36,33 +36,6 @@ for (i = 0; i < acc.length; i++) {
 }
 
 
-var body = document.getElementsByTagName('body')[0];
-var parallax = document.getElementsByClassName('parallax');
-parallax.style.backgroundPosition = 'top';
-
-// trigger this function every time the user scrolls
-window.onscroll = function (event) {
-    var scroll = window.pageYOffset;
-    if (scroll < 300) {
-        // green
-        parallax.style.backgroundPosition = 'bottom';
-    } else if (scroll >= 300 && scroll < 600) {
-        // yellow
-        parallax.style.backgroundPosition = 'center';
-    } else if (scroll >= 600 && scroll < 1200) {
-        // blue
-        parallax.style.backgroundPosition = 'top';
-    } else if (scroll >= 1200 && scroll < 1800) {
-        // orange
-        parallax.style.backgroundPosition = 'bottom';
-    } else if (scroll >= 1800 && scroll < 3000) {
-        // red
-        parallax.style.backgroundPosition = 'center';
-    } else {
-        // purple
-        parallax.style.backgroundPosition = 'top';
-    }
-}
 
 
 // function closePreloader() {
