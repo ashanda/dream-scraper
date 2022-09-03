@@ -232,6 +232,9 @@ h6 {
 }
 
 /* Menu styles */
+.navigation{
+    width: 100% !important;
+}
 #main-menu li {
     list-style: none;
     display: initial;
@@ -498,7 +501,7 @@ table.icons.ms-auto {
 }
 
 .buy_banner {
-    top: 71vw;
+    top: 72vw;
     position: absolute;
     text-align: center;
     margin: 0 20vw;
@@ -510,7 +513,7 @@ table.icons.ms-auto {
 }
 
 .buy_banner .img_caption {
-    margin-top: -6vw;
+    margin-top: -6.5vw;
 }
 
 .buy_banner a {
