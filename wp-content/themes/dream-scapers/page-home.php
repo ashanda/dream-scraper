@@ -168,21 +168,75 @@ get_header();  ?>
     <div class="container accordion_section">
         <button class="accordion">Section 1</button>
         <div class="panel" style="display: block;">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="dy-img">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="dy-caption">
+                        <div class="mb-2"><span class="gold">The Interverse Asset <sup>TM</sup></span></div>
+                        <p>The Interverse Asset<sup>TM</sup> is Dreamscapers Publishing’s trademark non-depreciable compact asset that provides economic and social utilities in both, our Real, tangible world, and the digital/metaverse.
+                        </p>
+                        <p>Dreamscapers Publishing launches The HoloNovel<sup>TM</sup> as its inaugural Interverse AssetTM. This inaugural collection is limited to only 2,000 HoloNovelTM volumes worldwide.</p>
+                        <p>The Interverse Asset<sup>TM</sup> is comprised of three interoperable yet distinct components/assets that generate surplus value:</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <button class="accordion">Section 2</button>
         <div class="panel">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="dy-img">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="dy-caption">
+                        <div class="mb-2"><span class="gold">The Physical Asset</span></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos unde rem qui similique inventore animi distinctio, nesciunt saepe fugiat? Enim magni animi alias nihil blanditiis beatae aliquid doloribus, numquam in.</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <button class="accordion">Section 3</button>
         <div class="panel">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="dy-img">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/section_4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="dy-caption">
+                        <div class="mb-2"><span class="gold">The Limited Digital Asset (LDA)</span></div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa accusamus, animi esse nisi nemo, harum est voluptates doloremque saepe aliquam nobis beatae quam rem. Dignissimos quas illo consequatur voluptates aspernatur.</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <button class="accordion">Section 3</button>
         <div class="panel">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="dy-img">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/key_light.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="dy-caption">
+                        <div class="mb-2"><span class="gold">The Royalty Entitlement</span></div>
+                        <p>At Dreamscapers Publishing Inc. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
+                            strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
+                            Asset as the fi=foundation for wealthy-building in both the real and metaverse, and we’re exited to play
+                            an active role in ownership economy.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
