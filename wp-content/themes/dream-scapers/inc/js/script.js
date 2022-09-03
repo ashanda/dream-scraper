@@ -40,16 +40,22 @@ var parallax_2 = document.getElementById('parallax_2');
 var parallax_3 = document.getElementById('parallax_3');
 var parallax_4 = document.getElementById('parallax_4');
 
+var body = document.body,
+    html = document.documentElement;
+
+var height = Math.max(body.scrollHeight, body.offsetHeight,
+    html.clientHeight, html.scrollHeight, html.offsetHeight);
+
 // trigger this function every time the user scrolls
 window.onscroll = function (event) {
     var x = window.pageYOffset;
-    var y = document.height;
+    var y = height;
     // parallax_1.style.backgroundPositionY = ((x/100)-5)+'vw';
     parallax_1.style.backgroundPositionY = (y - x) + 'vw';
     parallax_2.style.backgroundPositionY = ((x / 100) - 10) + 'vw';
     parallax_3.style.backgroundPositionY = ((x / 100) - 15) + 'vw';
     parallax_4.style.backgroundPositionY = (x / 100) + 'vw';
-    console.log(y);
+    console.log("height = "+ y);
 }
 
 
