@@ -56,7 +56,7 @@ window.onscroll = function (event) {
         body.style.backgroundColor = 'purple';
     }
 }
-</script >
+
 
 
 // function closePreloader() {
