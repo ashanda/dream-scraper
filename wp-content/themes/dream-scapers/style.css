@@ -817,10 +817,13 @@ form.checkout.woocommerce-checkout textarea {
     display: block;
 }
 
-/* new */
+/* accordion_section */
+.accordion_section{
+    padding: 50px 0;
+}
 .accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: #d9901e;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -833,7 +836,7 @@ form.checkout.woocommerce-checkout textarea {
 
 .active,
 .accordion:hover {
-    background-color: #ccc;
+    background-color: #003bad;
 }
 
 .panel {
