@@ -47,26 +47,15 @@ var height = Math.max(body.scrollHeight, body.offsetHeight,
     html.clientHeight, html.scrollHeight, html.offsetHeight);
 
 // trigger this function every time the user scrolls
-if (window.innerWidth <= 768) {
-    window.onscroll = function (event) {
-        var x = window.pageYOffset;
-        parallax_1.style.backgroundPositionY = ((x/50) - 10) + 'vw';
-        parallax_2.style.backgroundPositionY = ((x/20) - 10) + 'vw';
-        parallax_3.style.backgroundPositionY = (x - 10) + 'vw';
-        parallax_4.style.backgroundPositionY = (x - 10) + 'vw';
-        console.log('x='+ x);
-    }
+window.onscroll = function (event) {
+    var x = window.pageYOffset;
+    parallax_1.style.backgroundPositionY = ((x / 20) - 10) + 'vw';
+    parallax_2.style.backgroundPositionY = ((x / 20) - 10) + 'vw';
+    parallax_3.style.backgroundPositionY = ((x / 20) - 10) + 'vw';
+    parallax_4.style.backgroundPositionY = ((x / 20) - 10) + 'vw';
 }
-else { // viewportWidth width > 991
-    window.onscroll = function (event) {
-        var x = window.pageYOffset;
-        parallax_1.style.backgroundPositionY = ((x / 100) - 10) + 'vw';
-        parallax_2.style.backgroundPositionY = ((x / 100) - 18) + 'vw';
-        parallax_3.style.backgroundPositionY = ((x / 100) - 34) + 'vw';
-        parallax_4.style.backgroundPositionY = ((x / 100) + 10) + 'vw';
-        console.log(x);
-    }
-}
+
+
 
 
 
