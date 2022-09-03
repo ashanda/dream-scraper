@@ -44,9 +44,9 @@ var parallax_4 = document.getElementById('parallax_4');
 window.onscroll = function (event) {
     var x = window.pageYOffset;
         parallax_1.style.backgroundPositionY = x/100+'vw';
-        parallax_2.style.backgroundPositionY = x/100+'vw';
-        parallax_3.style.backgroundPositionY = x/100+'vw';
-        parallax_4.style.backgroundPositionY = x/100+'vw';
+        parallax_2.style.backgroundPositionY = ((x/100)-10)+'vw';
+        parallax_2.style.backgroundPositionY = ((x/100)-15)+'vw';
+        parallax_2.style.backgroundPositionY = ((x/100)-20)+'vw';
 }
 
 
