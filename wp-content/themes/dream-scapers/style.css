@@ -498,6 +498,7 @@ table.icons.ms-auto {
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -16vw;
+    background-repeat-y: repeat;
 }
 
 .buy_banner {
@@ -822,7 +823,7 @@ form.checkout.woocommerce-checkout textarea {
 
 /* accordion_section */
 .accordion_section{
-    padding: 50px 0;
+    padding: 40px 0;
 }
 .accordion {
     background-color: #ffc503;
