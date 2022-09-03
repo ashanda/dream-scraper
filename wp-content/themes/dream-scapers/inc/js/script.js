@@ -50,8 +50,8 @@ var height = Math.max(body.scrollHeight, body.offsetHeight,
 if (window.innerWidth <= 768) {
     window.onscroll = function (event) {
         var x = window.pageYOffset;
-        parallax_1.style.backgroundPositionY = (x - 10) + 'vw';
-        parallax_2.style.backgroundPositionY = (x - 10) + 'vw';
+        parallax_1.style.backgroundPositionY = (x/50 - 10) + 'vw';
+        parallax_2.style.backgroundPositionY = (x/10 - 10) + 'vw';
         parallax_3.style.backgroundPositionY = (x - 10) + 'vw';
         parallax_4.style.backgroundPositionY = (x - 10) + 'vw';
     }
