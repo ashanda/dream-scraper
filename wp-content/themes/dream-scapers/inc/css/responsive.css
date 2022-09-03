@@ -30,6 +30,9 @@
     .icons .nav-link {
         font-size: 1vw !important;
     }
+    .dy-img img{
+        max-width: 50vw !important;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -38,7 +41,7 @@
     }
     .dy-img img {
        position: absolute !important;
-       max-width: 20vw !important;
+       max-width: 18vw !important;
     }
     .panel {
         min-height: 34vw !important;
