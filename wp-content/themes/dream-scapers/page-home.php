@@ -107,11 +107,11 @@ get_header();  ?>
                 </div>
                 <div class="col-sm-8">
                     <div class="dy-caption">
-                        <div class="mb-2"><span class="gold">The Interverse Asset <sup>TM</sup></span></div>
-                        <p>The Interverse Asset<sup>TM</sup> is Dreamscapers Publishing’s trademark non-depreciable compact asset that provides economic and social utilities in both, our Real, tangible world, and the digital/metaverse.
+                        <div class="mb-2"><span class="gold">The <u><b>Interverse Asset</b></u> <sup>TM</sup></span></div>
+                        <p>The <u><b>Interverse Asset</b></u><sup>TM</sup> is Dreamscapers Publishing’s trademark non-depreciable compact asset that provides economic and social utilities in both, our Real, tangible world, and the digital/metaverse.
                         </p>
-                        <p>Dreamscapers Publishing launches The HoloNovel<sup>TM</sup> as its inaugural Interverse AssetTM. This inaugural collection is limited to only 2,000 HoloNovelTM volumes worldwide.</p>
-                        <p>The Interverse Asset<sup>TM</sup> is comprised of three interoperable yet distinct components/assets that generate surplus value:</p>
+                        <p>Dreamscapers Publishing launches The HoloNovel<sup>TM</sup> as its inaugural <u><b>Interverse Asset</b></u><sup>TM</sup>. This inaugural collection is limited to only 2,000 HoloNovel<sup>TM</sup> volumes worldwide.</p>
+                        <p>The <u><b>Interverse Asset</b></u><sup>TM</sup> is comprised of <b>three</b> interoperable yet distinct components/assets that generate surplus value:</p>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@ get_header();  ?>
                 <div class="col-sm-8">
                     <div class="dy-caption">
                         <div class="mb-2"><span class="gold">The Physical Asset</span></div>
-                        <p>Each of the 2,000 collectible physical assets is authenticated and traced via a concealed Interverse ChipTM embedded inside the cover.The Interverse ChipTM is a silicon microchip that uses Near-Field Communication (NFC) technology. Each Interverse hipTM contains essential data regarding ownership such as, proof of ownership, proof of authenticity, and even geolocation data. Once the Interverse ChipTM is encoded with the relevant ownership information, its digital twin, int the form of Limited Digital Asset (LDA), is encrypted and secured on the blockchain network.
+                        <p>Each of the 2,000 collectible <b>Physical Asset</b>s is authenticated and traced via a concealed Interverse Chip<sup>TM</sup> embedded inside the cover.The Interverse Chip<sup>TM</sup> is a silicon microchip that uses Near-Field Communication (NFC) technology. Each Interverse hip<sup>TM</sup> contains essential data regarding ownership such as, proof of ownership, proof of authenticity, and even geolocation data. Once the Interverse Chip<sup>TM</sup> is encoded with the relevant ownership information, its digital twin, int the form of Limited <b>Digital Asset</b> (LDA), is encrypted and secured on the blockchain network.
                         </p>
                     </div>
                 </div>
@@ -145,8 +145,8 @@ get_header();  ?>
                 </div>
                 <div class="col-sm-8">
                     <div class="dy-caption">
-                        <div class="mb-2"><span class="gold">The Limited Digital Asset (LDA)</span></div>
-                        <p>The data embedded in the Interverse ChipTM of each physical asset, is also encrypted in each Limited Digital Asset (LDA). Data such as legal information, authentication details, ownership information, and royalty system is securely registered on the immutable blockchain network.
+                        <div class="mb-2"><span class="gold">The Limited <b>Digital Asset</b> (LDA)</span></div>
+                        <p>The data embedded in the Interverse ChipTM of each <b>Physical Asset</b>, is also encrypted in each Limited <b>Digital Asset</b> (LDA). Data such as legal information, authentication details, ownership information, and royalty system is securely registered on the immutable blockchain network.
                         </p>
                     </div>
                 </div>
