@@ -19,12 +19,12 @@
                     <img class="footer_logo" src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" alt="">
                     <span>Copyright @<script>
                             document.write(new Date().getFullYear())
-                        </script> Dreamscapers Publishing</span>
+                        </script> Dreamscapers Publishing. Powered by <a target="_blank" href="https://mozita.digital/">Mozita Digital</a></span>
                 </div>
             </td>
-            <td style="display: none;">
+            <td>
                 <div class="text-end">
-                    <span>Developed by <a target="_blank" href="https://mozita.digital/">Mozita Digital</a></span>
+                    <span>CULTURE RECALIBRATED</span>
                 </div>
             </td>
         </tr>
