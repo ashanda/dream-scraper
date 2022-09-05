@@ -98,11 +98,9 @@
     .dy-caption {
         text-align: center !important;
     }
-
-    .caption_1 {
-        padding-top: 2vw !important;
+    .caption span{
+        font-size: 3vw !important   ;
     }
-
     .gold {
         text-shadow: none !important;
     }
