@@ -62,6 +62,8 @@ get_header();  ?>
 <img class="devider_bottom" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_bottom.png');" alt="">
 <!-- parallax Section 2 -->
 <div id="parallax_2" class="parallax parallax_2" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_2.jpg');"></div>
+<img class="devider_top" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_top.png');" alt="">
+
 <!-- Content section 2 -->
 <div class="content_2">
     <!-- <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt=""> -->
