@@ -298,6 +298,11 @@ li#menu-item-19 {
     text-transform: uppercase;
     min-height: 5vw;
     padding-top: 3px;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 99999;
 }
 
 .header_top a {
