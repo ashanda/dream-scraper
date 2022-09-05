@@ -17,14 +17,14 @@
             <td>
                 <div class="text-left">
                     <img class="footer_logo" src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" alt="">
-                    <span>Copyright @<script>
-                            document.write(new Date().getFullYear())
-                        </script> Dreamscapers Publishing. Powered by <a target="_blank" href="https://mozita.digital/">Mozita Digital</a></span>
+                    <span>CULTURE RECALIBRATED</span>
                 </div>
             </td>
             <td>
                 <div class="text-end">
-                    <span>CULTURE RECALIBRATED</span>
+                    <span>Copyright @<script>
+                            document.write(new Date().getFullYear())
+                        </script> Dreamscapers Publishing. Powered by <a target="_blank" href="https://mozita.digital/">Mozita Digital</a></span>
                 </div>
             </td>
         </tr>
