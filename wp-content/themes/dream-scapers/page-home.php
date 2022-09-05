@@ -50,7 +50,6 @@ get_header();  ?>
 <img class="devider_top" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_top.png');" alt="">
 <!-- Content section 1 -->
 <div class="content_1">
-    <!-- <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt=""> -->
     <div class="caption header">
         <span class="gold">
             We invite you to come for Wealth and,<br>
@@ -66,7 +65,6 @@ get_header();  ?>
 
 <!-- Content section 2 -->
 <div class="content_2">
-    <!-- <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt=""> -->
     <div class="caption caption_1">
         <span>In a world driven by value-extraction and exploitative principles, we, here at Dreamscapers Publishing Inc,
             Inc., are building an ecosystem grounded in contributive and collaborative value principles. <br> By
@@ -84,7 +82,6 @@ get_header();  ?>
 <img class="devider_top" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_top.png');" alt="">
 <!-- Content section 3 -->
 <div class="content_3">
-    <!-- <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt=""> -->
     <div class="caption caption_2">
         <span>At Dreamscapers Publishing, we’re not interested in an “exit strategy.” We don’t seek an IPO nor do we strive to someday be acquired by a monopoly corporation. We believe in both, the Real and the metaverse, and we’re excited to play an active Role in Ownership Economy.</span>
     </div>
