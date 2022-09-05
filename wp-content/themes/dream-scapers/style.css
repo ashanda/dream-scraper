@@ -546,6 +546,10 @@ table.icons.ms-auto {
     width: 100%;
     padding: 5vw;
     line-height: 4vw;
+    /* height: 38vw; */
+}
+.content_1 .caption{
+    padding: 2vw;
 }
 
 .header {
