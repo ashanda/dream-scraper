@@ -503,7 +503,7 @@ table.icons.ms-auto {
     /* background-attachment: fixed; */
     /* background-position: center; */
     background-size: cover;
-    margin-top: -16vw;
+    /* margin-top: -16vw; */
     background-repeat-y: repeat;
 }
 .parallax_1,
@@ -546,7 +546,7 @@ table.icons.ms-auto {
 /* content  */
 .caption {
     /* margin-top: -45vw; */
-    position: absolute;
+    position: relative;
     text-align: center;
     width: 100%;
     padding: 5vw;
