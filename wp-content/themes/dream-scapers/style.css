@@ -75,6 +75,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /* body{
@@ -335,6 +336,7 @@ table.icons.ms-auto {
     margin-right: 2vw;
     color: #e7bc39;
     font-size: 1.5vw;
+    text-align: end;
 }
 
 /* icon_section */
@@ -495,7 +497,6 @@ table.icons.ms-auto {
     min-height: 50vw;
     /* background-attachment: fixed; */
     /* background-position: center; */
-    background-repeat: no-repeat;
     background-size: cover;
     margin-top: -16vw;
     background-repeat-y: repeat;
@@ -543,12 +544,12 @@ table.icons.ms-auto {
     position: absolute;
     text-align: center;
     width: 100%;
-    padding: 0 5vw;
+    padding: 5vw;
     line-height: 4vw;
 }
 
 .header {
-    padding-top: 10vw;
+    /* padding-top: 10vw; */
 }
 
 .header_captions span {

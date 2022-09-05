@@ -78,12 +78,12 @@
         </div>
         <!-- Navigation -->
         <div class="row navigation">
-            <div class="col-4">
+            <div class="col-3">
                 <a href="">
                     <img class="logo img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/logo.png" alt="">
                 </a>
             </div>
-            <div class="col-8">
+            <div class="col-9">
                 <table class="icons ms-auto">
                     <tr>
                         <td><a class="nav-link" href="/shop/"><img class="img-fluid" src="https://dreamscaperspublishing.com/wp-content/uploads/2022/09/shop-icon.png" alt="">
