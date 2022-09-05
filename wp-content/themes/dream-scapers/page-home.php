@@ -125,7 +125,7 @@ get_header();  ?>
                 <div class="col-sm-8">
                     <div class="dy-caption">
                         <div class="mb-2"><span class="gold">The Physical Asset</span></div>
-                        <p>Each of the 2,000 collectible <b>Physical Asset</b>s is authenticated and traced via a concealed Interverse Chip<sup>TM</sup> embedded inside the cover.The Interverse Chip<sup>TM</sup> is a silicon microchip that uses Near-Field Communication (NFC) technology. Each Interverse hip<sup>TM</sup> contains essential data regarding ownership such as, proof of ownership, proof of authenticity, and even geolocation data. Once the Interverse Chip<sup>TM</sup> is encoded with the relevant ownership information, its digital twin, int the form of Limited <b>Digital Asset</b> (LDA), is encrypted and secured on the blockchain network.
+                        <p>Each of the 2,000 collectible <b>Physical Assets</b> is authenticated and traced via a concealed Interverse Chip<sup>TM</sup> embedded inside the cover.The Interverse Chip<sup>TM</sup> is a silicon microchip that uses Near-Field Communication (NFC) technology. Each Interverse hip<sup>TM</sup> contains essential data regarding ownership such as, proof of ownership, proof of authenticity, and even geolocation data. Once the Interverse Chip<sup>TM</sup> is encoded with the relevant ownership information, its digital twin, int the form of Limited <b>Digital Asset</b> (LDA), is encrypted and secured on the blockchain network.
                         </p>
                     </div>
                 </div>
@@ -162,7 +162,7 @@ get_header();  ?>
                         <div class="mb-2"><span class="gold">The Royalty Entitlement</span></div>
                         <p>At Dreamscapers Publishing Inc. We ‘re not interested in an “exit strategy,” We don’t seek an IPO nor do we
                             strive to someday be acquired by a monopoly corporation. <br> We believe in the power of the Interferes
-                            Asset as the fi=foundation for wealthy-building in both the real and metaverse, and we’re exited to play
+                            Asset as the foundation for wealthy-building in both the real and metaverse, and we’re exited to play
                             an active role in ownership economy.</p>
                     </div>
                 </div>
