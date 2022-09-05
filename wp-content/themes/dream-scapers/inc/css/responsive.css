@@ -30,7 +30,8 @@
     .icons .nav-link {
         font-size: 1vw !important;
     }
-    .dy-img img{
+
+    .dy-img img {
         max-width: 50vw !important;
     }
 }
@@ -39,10 +40,12 @@
     input#coupon_code {
         width: auto;
     }
+
     .dy-img img {
-       position: absolute !important;
-       max-width: 15vw !important;
+        position: absolute !important;
+        max-width: 15vw !important;
     }
+
     .panel {
         min-height: 34vw !important;
     }
@@ -98,14 +101,18 @@
     .dy-caption {
         text-align: center !important;
     }
-    .caption span{
-        font-size: 3vw !important   ;
+
+    .caption span {
+        font-size: 3vw !important;
     }
+
     .gold {
         text-shadow: none !important;
     }
 
     .header .gold {
         text-shadow: none !important;
+        font-size: 5vw !important;
+        line-height: 7vw !important;
     }
 }
