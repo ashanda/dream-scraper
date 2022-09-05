@@ -288,6 +288,7 @@ li#menu-item-19 {
     background-position: top;
     background-size: cover;
     position: relative;
+    padding-top: 4vw;
 }
 
 /* header styles */
@@ -303,7 +304,7 @@ li#menu-item-19 {
     overflow: hidden;
     width: 100%;
     z-index: 99999;
-    
+
 }
 
 .header_top a {
