@@ -225,11 +225,16 @@ h6 {
     margin-bottom: 1vw;
 }
 
-.devider {
+.devider_top {
     width: 100%;
     height: auto;
     position: absolute;
     margin-top: -7vw;
+}
+.devider_bottom {
+    width: 100%;
+    height: auto;
+    position: absolute;
 }
 
 /* Menu styles */
@@ -540,7 +545,7 @@ table.icons.ms-auto {
 
 /* content  */
 .caption {
-    margin-top: -45vw;
+    /* margin-top: -45vw; */
     position: absolute;
     text-align: center;
     width: 100%;

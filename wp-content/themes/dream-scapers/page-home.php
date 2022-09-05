@@ -47,10 +47,10 @@ get_header();  ?>
         </div>
     </div>
 </div>
-<img class="devider" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_white.png');" alt="">
+<img class="devider_top" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_top.png');" alt="">
 <!-- Content section 1 -->
 <div class="content_1">
-    <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
+    <!-- <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt=""> -->
     <div class="caption header">
         <span class="gold">
             We invite you to come for Wealth and,<br>
@@ -59,11 +59,12 @@ get_header();  ?>
         </span>
     </div>
 </div>
+<img class="devider_bottom" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_bottom.png');" alt="">
 <!-- parallax Section 2 -->
 <div id="parallax_2" class="parallax parallax_2" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_2.jpg');"></div>
 <!-- Content section 2 -->
 <div class="content_2">
-    <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
+    <!-- <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt=""> -->
     <div class="caption caption_1">
         <span>In a world driven by value-extraction and exploitative principles, we, here at Dreamscapers Publishing Inc,
             Inc., are building an ecosystem grounded in contributive and collaborative value principles. <br> By
@@ -74,18 +75,23 @@ get_header();  ?>
 
     </div>
 </div>
+<img class="devider_bottom" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_bottom.png');" alt="">
+
 <!-- parallax Section 3 -->
 <div id="parallax_3" class="parallax parallax_3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_3.jpg');"></div>
+<img class="devider_top" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_top.png');" alt="">
 <!-- Content section 3 -->
 <div class="content_3">
-    <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
+    <!-- <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt=""> -->
     <div class="caption caption_2">
         <span>At Dreamscapers Publishing, we’re not interested in an “exit strategy.” We don’t seek an IPO nor do we strive to someday be acquired by a monopoly corporation. We believe in both, the Real and the metaverse, and we’re excited to play an active Role in Ownership Economy.</span>
     </div>
 </div>
+<img class="devider_bottom" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_bottom.png');" alt="">
+
 <!-- parallax Section 4 -->
 <div id="parallax_4" class="parallax parallax_4" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/par_1.jpg');"></div>
-<img class="devider" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_white.png');" alt="">
+<img class="devider_top" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_top.png');" alt="">
 <!-- Content section 4 -->
 <div class="content_4">
     <div class="container accordion_section">
