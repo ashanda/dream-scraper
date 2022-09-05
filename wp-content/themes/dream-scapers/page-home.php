@@ -47,6 +47,7 @@ get_header();  ?>
         </div>
     </div>
 </div>
+<img class="devider" src="<?php echo get_template_directory_uri(); ?>/inc/img/devider_white.png');" alt="">
 <!-- Content section 1 -->
 <div class="content_1">
     <img class="white_sec" src="<?php echo get_template_directory_uri(); ?>/inc/img/white_section.png" alt="">
