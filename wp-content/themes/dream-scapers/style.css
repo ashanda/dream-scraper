@@ -873,3 +873,9 @@ form.checkout.woocommerce-checkout textarea {
     overflow: hidden;
     margin-top: 10px;
 }
+
+/* Footer */
+.footer a{
+    color: #29abff;
+    text-decoration: none;
+}
