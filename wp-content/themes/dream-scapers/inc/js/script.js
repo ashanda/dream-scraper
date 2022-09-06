@@ -50,13 +50,20 @@ var height = Math.max(body.scrollHeight, body.offsetHeight,
 // trigger this function every time the user scrolls
 window.onscroll = function (event) {
     var x = window.pageYOffset;
-    parallax_1.style.backgroundPositionY = ((x / 20)-9) + 'vw';
+    parallax_1.style.backgroundPositionY = ((x / 20) - 9) + 'vw';
     parallax_2.style.backgroundPositionY = ((x / 20) - 22) + 'vw';
     parallax_3.style.backgroundPositionY = ((x / 20) - 28) + 'vw';
-    parallax_4.style.backgroundPositionY = ((x / 20) -38) + 'vw';
+    parallax_4.style.backgroundPositionY = ((x / 20) - 38) + 'vw';
 }
-
-
+// Mobile menu dopdown
+function mobMenu() {
+    var x = document.getElementById("top_menu");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
 
 
 
