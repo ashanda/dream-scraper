@@ -80,6 +80,7 @@
                 ?>
 
                 <div class="mobile_links">
+                    <br>
                     <a class="nav-link" href="/shop/"><img class="img-fluid" src="https://dreamscaperspublishing.com/wp-content/uploads/2022/09/shop-icon.png" alt="">
                         Shop</a>
                     <a class="nav-link" href="javascript:void(Tawk_API.toggle())"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/chat_icon.png" alt="">

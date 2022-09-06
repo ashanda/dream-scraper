@@ -52,6 +52,9 @@
     .panel {
         min-height: 34vw !important;
     }
+    .mobile_links{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1450px) {
