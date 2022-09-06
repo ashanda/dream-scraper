@@ -337,18 +337,21 @@ h6 {
         top: 0;
         border-radius: 5px;
     }
-    li#menu-item-14 span{
-        padding-left:0 ;
+
+    li#menu-item-14 span {
+        padding-left: 0;
     }
-   
-    .mobile_links{
-        display: none !important;
+
+    .mobile_links {
+        display: block;
     }
-    .mobile_links img{
+
+    .mobile_links img {
         max-width: 6vw;
         margin-right: 2vw;
     }
-    .mobile_links .nav-link{
+
+    .mobile_links .nav-link {
         font-size: 4vw;
     }
 }
