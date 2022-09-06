@@ -316,6 +316,7 @@ h6 {
     #top_menu li {
         list-style: none;
         padding: 10px;
+        border-bottom: solid 1px #011351;
     }
 
     #top_menu li:hover {
