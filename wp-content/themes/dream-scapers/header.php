@@ -78,6 +78,15 @@
                     )
                 );
                 ?>
+
+                <div class="mobile_links">
+                    <a class="nav-link" href="/shop/"><img class="img-fluid" src="https://dreamscaperspublishing.com/wp-content/uploads/2022/09/shop-icon.png" alt="">
+                        Shop</a>
+                    <a class="nav-link" href="javascript:void(Tawk_API.toggle())"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/chat_icon.png" alt="">
+                        Live Chat</a>
+                    <a class="nav-link" href="mailto:support@dreamscaperspublishing.com"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/email-icon.png" alt="">
+                        support@dreamscaperspublishing.com</a>
+                </div>
             </div>
             <a href="javascript:void(0);" id="mobile_menu_icon" class="icon" onclick="mobMenu()">
                 <i class="fa fa-2x fa-bars"></i>
