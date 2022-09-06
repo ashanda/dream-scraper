@@ -34,6 +34,9 @@
     .dy-img img {
         max-width: 50vw !important;
     }
+    table.icons.ms-auto{
+        display: none !important;
+    }
 }
 
 @media only screen and (min-width: 768px) {
