@@ -43,7 +43,7 @@ get_header();  ?>
     <div class="buy_banner">
         <img src="<?php echo get_template_directory_uri(); ?>/inc/img/buynow_button.png" alt="">
         <div class="img_caption">
-            <a href="/shop/">Buy 4D Prototype Page Here</a>
+            <a href="/shop/">Buy Exclusive 4D Prototype Prints Here!</a>
         </div>
     </div>
 </div>
