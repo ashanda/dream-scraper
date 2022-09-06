@@ -242,7 +242,7 @@ h6 {
 .navigation{
     width: 100% !important;
 }
-#main-menu li {
+#top_menu li {
     list-style: none;
     display: initial;
     position: absolute;
@@ -251,12 +251,12 @@ h6 {
     transition-duration: 0.5s;
 }
 
-#main-menu li:hover {
+#top_menu li:hover {
     transform: scale(1.02);
     text-shadow: rgb(111 159 205 / 92%) 0px 0px 10px;
 }
 
-#main-menu span {
+#top_menu span {
     display: block;
     font-size: 2.2vw;
     line-height: 1;

@@ -65,7 +65,7 @@
     <div class="top_section" style="background-image:url(<?php echo get_template_directory_uri(); ?>/inc/img/background_1.png);">
         <div class="header_top" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/header.png');">
             <!-- <table width="100%"> -->
-            <div class="top_menu">
+            <div id="top_menu" class="top_menu">
                 <?php
                 wp_nav_menu(
                     array(
