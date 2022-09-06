@@ -87,6 +87,7 @@
                         Live Chat</a>
                     <a class="nav-link" href="mailto:support@dreamscaperspublishing.com"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/icons/email-icon.png" alt="">
                         support@dreamscaperspublishing.com</a>
+                        <br>
                 </div>
             </div>
             <a href="javascript:void(0);" id="mobile_menu_icon" class="icon" onclick="mobMenu()">
