@@ -80,7 +80,7 @@
                 ?>
             </div>
             <a href="javascript:void(0);" id="mobile_menu_icon" class="icon" onclick="mobMenu()">
-                <i class="fa fa-bars"></i>
+                <i class="fa fa-2x fa-bars"></i>
             </a>
 
         </div>
