@@ -25,6 +25,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/css/responsive.css">
@@ -60,7 +64,8 @@
     <!-- Header -->
     <div class="top_section" style="background-image:url(<?php echo get_template_directory_uri(); ?>/inc/img/background_1.png);">
         <div class="header_top" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/img/header.png');">
-            <table width="100%">
+            <!-- <table width="100%"> -->
+            <div class="top_menu">
                 <?php
                 wp_nav_menu(
                     array(
@@ -73,8 +78,9 @@
                     )
                 );
                 ?>
+            </div>
+            <!-- </table> -->
 
-            </table>
         </div>
         <!-- Navigation -->
         <div class="row navigation">

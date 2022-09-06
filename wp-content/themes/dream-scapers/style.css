@@ -874,6 +874,10 @@ form.checkout.woocommerce-checkout textarea {
     margin-top: 10px;
 }
 
+/* Mobile menu*/
+@media only screen and (max-width: 768px) {
+
+}
 /* Footer */
 .footer a{
     color: #29abff;
