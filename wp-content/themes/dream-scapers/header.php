@@ -79,7 +79,7 @@
                 );
                 ?>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="mobMenu()">
+            <a href="javascript:void(0);" id="mobile_menu_icon" class="icon" onclick="mobMenu()">
                 <i class="fa fa-bars"></i>
             </a>
 

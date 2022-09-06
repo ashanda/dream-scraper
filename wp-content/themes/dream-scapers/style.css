@@ -288,6 +288,10 @@ h6 {
     li#menu-item-19 {
         left: 86.5vw;
     }
+
+    #mobile_menu_icon {
+        display: none;
+    }
 }
 
 /* Mobile menu*/
@@ -295,15 +299,41 @@ h6 {
     .header_top {
         background-size: contain;
     }
+
+    #top_menu {
+        transition-duration: 0.5s;
+    }
+
     #top_menu span {
         display: inline;
         padding-left: 10px;
     }
-    #top_menu{
-        
-    }
-    #top_menu li {
 
+    #top_menu li {
+        list-style: none;
+    }
+
+    #top_menu li:hover {
+        background-color: #011351;
+    }
+
+    #top_menu li:hover a {
+        color: #fff;
+    }
+
+    #top_menu p {
+        display: inline;
+    }
+
+    #mobile_menu_icon {
+        position: fixed;
+        right: 0;
+        padding: 5px 10px;
+        margin: 10px;
+        background: #000;
+        color: #f4da57;
+        top: 0;
+        border-radius: 5px;
     }
 }
 
