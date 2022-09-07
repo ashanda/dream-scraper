@@ -18,7 +18,8 @@ get_header();
 			<div class="widget widget_categories">
 				<header class="page-header">
 					<h1 class="page-title"><?php esc_html_e('Oops! That page can&rsquo;t be found.', 'dream-scapers'); ?></h1>
-						<span>404</span>					
+						<span>404</span>
+						<a href="<?php echo get_home_url(); ?>">Click here to go to homepage</a>					
 				</header><!-- .page-header -->
 			</div><!-- .page-content -->
 		</div>
