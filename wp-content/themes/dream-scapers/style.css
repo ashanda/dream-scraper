@@ -959,3 +959,14 @@ form.checkout.woocommerce-checkout textarea {
     color: #29abff;
     text-decoration: none;
 }
+
+/* .error-404.not-found */
+.error-404.not-found {
+    text-align: center;
+    background-color: #f4da57c2;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 50px;
+    -webkit-box-shadow: 0px 0px 19px -1px #000000;
+    box-shadow: 0px 0px 19px -1px #000000;
+}
