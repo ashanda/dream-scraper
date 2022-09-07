@@ -733,8 +733,9 @@ table.icons.ms-auto {
 
 /* Other pages css */
 .woocommerce ul.products li.product a {
-	line-height: 1.5;
+    line-height: 1.5;
 }
+
 .woocommerce-page .logo {
     max-width: 12vw !important;
     margin-top: 1vw;
@@ -1001,4 +1002,9 @@ form.checkout.woocommerce-checkout textarea {
         font-size: 200px;
         line-height: 1.2;
     }
+}
+
+.head_right_text {
+    float: right;
+    color: #e7bc39;
 }
