@@ -732,6 +732,9 @@ table.icons.ms-auto {
 }
 
 /* Other pages css */
+.woocommerce ul.products li.product a {
+	line-height: 1.5;
+}
 .woocommerce-page .logo {
     max-width: 12vw !important;
     margin-top: 1vw;
