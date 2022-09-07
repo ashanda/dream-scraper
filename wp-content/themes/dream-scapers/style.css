@@ -347,8 +347,12 @@ h6 {
     }
 
     .mobile_links img {
-        max-width: 6vw;
-        margin-right: 2vw;
+        width: 10vw;
+        margin-right: 1vw;
+        background-color: #001b70;
+        padding: 10px;
+        border-radius: 50%;
+        height: 10vw;
     }
 
     .mobile_links .nav-link {
