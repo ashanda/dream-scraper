@@ -1008,3 +1008,11 @@ form.checkout.woocommerce-checkout textarea {
     float: right;
     color: #e7bc39;
 }
+
+@media only screen and (max-width: 768px) {
+    .head_right_text {
+        margin-right: 55px;
+        font-size: 12px;
+        margin-top: 4vw;
+    }
+}
