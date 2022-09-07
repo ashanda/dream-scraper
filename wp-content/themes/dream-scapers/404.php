@@ -18,7 +18,9 @@ get_header();
 			<div class="widget widget_categories">
 				<header class="page-header">
 					<h1 class="page-title"><?php esc_html_e('Oops! That page can&rsquo;t be found.', 'dream-scapers'); ?></h1>
-					<span class="notfound_text">404</span>
+					<div class="notfound_text">
+						<span>404</span>
+					</div>
 				</header><!-- .page-header -->
 			</div><!-- .page-content -->
 		</div>
