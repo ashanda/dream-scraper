@@ -1008,6 +1008,9 @@ form.checkout.woocommerce-checkout textarea {
     float: right;
     color: #e7bc39;
 }
+.home .head_right_text{
+    display: none;
+}
 
 @media only screen and (min-width: 768px) {
     .head_right_text {
