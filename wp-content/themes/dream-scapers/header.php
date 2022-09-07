@@ -114,8 +114,9 @@
 
                     </tr>
                 </table>
+                <span class="head_right_text">
+                    CULTURE RECALIBRATED
+                </span>
             </div>
-            <span class="head_right_text">
-                CULTURE RECALIBRATED
-            </span>
+
         </div>
