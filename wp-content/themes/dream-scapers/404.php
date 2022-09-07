@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying 404 pages (not found)
  *
@@ -10,24 +11,20 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+<main id="primary" class="site-main">
 
-		<section class="error-404 not-found">
-			
-
-			<div class="page-content">
-			
-
-				<div class="widget widget_categories">
+	<section class="error-404 not-found">
+		<div class="page-content">
+			<div class="widget widget_categories">
 				<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'dream-scapers' ); ?></h1>
-				</header><!-- .page-header -->	
+					<h1 class="page-title"><?php esc_html_e('Oops! That page can&rsquo;t be found.', 'dream-scapers'); ?></h1>
+					<span class="notfound_text">404</span>
+				</header><!-- .page-header -->
+			</div><!-- .page-content -->
+		</div>
+	</section><!-- .error-404 -->
 
-				</div><!-- .page-content -->
-		    </div>
-		</section><!-- .error-404 -->
-
-	</main><!-- #main -->
+</main><!-- #main -->
 
 <?php
 get_footer();
