@@ -959,7 +959,3 @@ form.checkout.woocommerce-checkout textarea {
     color: #29abff;
     text-decoration: none;
 }
-/* Hide wp admin bar */
-#wpadminbar{
-    display: none!important;
-}
