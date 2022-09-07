@@ -16,12 +16,12 @@ get_header();
 			
 
 			<div class="page-content">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'dream-scapers' ); ?></h1>
-			</header><!-- .page-header -->
+			
 
 				<div class="widget widget_categories">
-						
+				<header class="page-header">
+				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'dream-scapers' ); ?></h1>
+				</header><!-- .page-header -->	
 
 				</div><!-- .page-content -->
 		    </div>
