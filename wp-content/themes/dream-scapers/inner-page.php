@@ -22,19 +22,8 @@ get_header();
         </div>
         <div class="col-lg-5 col-md-5 col-sm-6">
             <div class="right_content">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/heart.png" alt="">
-                    </div>
-                    <div class="col-sm-6">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/heart.png" alt="">
-                    </div>
-                    <div class="col-sm-6">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/heart.png" alt="">
-                    </div>
-                    <div class="col-sm-6">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/heart.png" alt="">
-                    </div>
+                <div class="right_img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/inc/img/heart.png" alt="">
                 </div>
             </div>
         </div>
