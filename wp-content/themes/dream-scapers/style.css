@@ -1008,7 +1008,8 @@ form.checkout.woocommerce-checkout textarea {
     float: right;
     color: #e7bc39;
 }
-.home .head_right_text{
+
+.home .head_right_text {
     display: none;
 }
 
@@ -1025,4 +1026,27 @@ form.checkout.woocommerce-checkout textarea {
         font-size: 12px;
         margin-top: 4vw;
     }
+}
+
+/* inner_page css */
+.inner_page_body {
+    padding: 50px 0;
+}
+
+/* Hover model */
+.hover_model {
+    position: absolute;
+}
+
+.left_content .header h2 {
+    color: #011351;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 5px 7px rgba(231,188,57,0.58);
+}
+.content{
+    margin-top: 20px;
+}
+.content p {
+	line-height: 2;
 }
