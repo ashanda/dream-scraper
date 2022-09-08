@@ -1047,6 +1047,7 @@ form.checkout.woocommerce-checkout textarea {
 
 .content {
     margin-top: 20px;
+    text-align: justify;
 }
 
 .content p {
