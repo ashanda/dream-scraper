@@ -35,9 +35,9 @@ get_header();
                 </div>
             </div>
         </div>
-        <?php if (get_field('left_side_content')) : ?>
-            <div class="bottom_content">
-                <p><?php the_field('left_side_content'); ?></p>
+        <?php if (get_field('bottom_content')) : ?>
+            <div class="bottomContent">
+                <p><?php the_field('bottom_content'); ?></p>
             </div>
         <?php endif; ?>
     </div>
