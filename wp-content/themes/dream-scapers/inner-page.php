@@ -27,7 +27,7 @@ get_header();
             </div>
             <div class="col-lg-5 col-md-5 col-sm-6">
                 <div class="right_content">
-                    <div class="right_img">
+                    <div class="right_img text-center">
                         <?php if (get_field('right_side_image')) : ?>
                             <img class="img-fluid" src="<?php the_field('right_side_image'); ?>" alt="">
                         <?php endif; ?>
