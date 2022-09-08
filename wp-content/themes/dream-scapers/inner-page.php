@@ -8,7 +8,7 @@ get_header();
 ?>
 <br>
 </div>
-<div class="container-fluid inner_page_body">
+<div class="container inner_page_body">
     <div class="row">
         <div class="col-lg-7 col-md-7 col-sm-6">
             <div class="left_content">
